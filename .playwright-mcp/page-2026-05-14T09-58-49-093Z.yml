@@ -1,0 +1,421 @@
+- generic [active] [ref=e1]:
+  - link "View source on Github" [ref=e2] [cursor=pointer]:
+    - /url: https://github.com/datawhalechina/all-in-rag
+    - img [ref=e3]
+  - main [ref=e7]:
+    - button "Menu" [ref=e8] [cursor=pointer]
+    - complementary [ref=e13]:
+      - searchbox "Search text" [ref=e16]
+      - heading "All-in-RAG" [level=1] [ref=e17]:
+        - link "All-in-RAG" [ref=e18] [cursor=pointer]:
+          - /url: /all-in-rag/
+          - img "All-in-RAG" [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e1702] [cursor=pointer]: ☀️ Switch to Dark
+        - list [ref=e1703]:
+          - listitem [ref=e1704]:
+            - text: 目录
+            - list [ref=e1705]:
+              - listitem [ref=e1706]:
+                - text: 第一章 解锁RAG
+                - list [ref=e1707]:
+                  - listitem [ref=e1708]:
+                    - link "第一节 RAG简介" [ref=e1709] [cursor=pointer]:
+                      - /url: "#/chapter1/01_RAG_intro"
+                  - listitem [ref=e1710]:
+                    - link "第二节 准备工作" [ref=e1711] [cursor=pointer]:
+                      - /url: "#/chapter1/02_preparation"
+                  - listitem [ref=e1712]:
+                    - link "第三节 四步构建RAG" [ref=e1713] [cursor=pointer]:
+                      - /url: "#/chapter1/03_get_start_rag"
+                  - listitem [ref=e1714]:
+                    - link "附：Python虚拟环境部署方案补充" [ref=e1715] [cursor=pointer]:
+                      - /url: "#/chapter1/virtualenv"
+              - listitem [ref=e1716]:
+                - text: 第二章 数据准备
+                - list [ref=e1717]:
+                  - listitem [ref=e1718]:
+                    - link "第一节 数据加载" [ref=e1719] [cursor=pointer]:
+                      - /url: "#/chapter2/04_data_load"
+                  - listitem [ref=e1720]:
+                    - link "第二节 文本分块" [ref=e1721] [cursor=pointer]:
+                      - /url: "#/chapter2/05_text_chunking"
+              - listitem [ref=e1722]:
+                - text: 第三章 索引构建
+                - list [ref=e1723]:
+                  - listitem [ref=e1724]:
+                    - link "第一节 向量嵌入" [ref=e1725] [cursor=pointer]:
+                      - /url: "#/chapter3/06_vector_embedding"
+                  - listitem [ref=e1726]:
+                    - link "第二节 多模态嵌入" [ref=e1727] [cursor=pointer]:
+                      - /url: "#/chapter3/07_multimodal_embedding"
+                  - listitem [ref=e1728]:
+                    - link "第三节 向量数据库" [ref=e1729] [cursor=pointer]:
+                      - /url: "#/chapter3/08_vector_db"
+                  - listitem [ref=e1730]:
+                    - link "第四节 Milvus实践" [ref=e1731] [cursor=pointer]:
+                      - /url: "#/chapter3/09_milvus"
+                  - listitem [ref=e1732]:
+                    - link "第五节 索引优化" [ref=e1733] [cursor=pointer]:
+                      - /url: "#/chapter3/10_index_optimization"
+              - listitem [ref=e1734]:
+                - text: 第四章 检索优化
+                - list [ref=e1735]:
+                  - listitem [ref=e1736]:
+                    - link "第一节 混合检索" [ref=e1737] [cursor=pointer]:
+                      - /url: "#/chapter4/11_hybrid_search"
+                  - listitem [ref=e1738]:
+                    - link "第二节 查询构建" [ref=e1739] [cursor=pointer]:
+                      - /url: "#/chapter4/12_query_construction"
+                  - listitem [ref=e1740]:
+                    - link "第三节 Text2SQL" [ref=e1741] [cursor=pointer]:
+                      - /url: "#/chapter4/13_text2sql"
+                  - listitem [ref=e1742]:
+                    - link "第四节 查询重构与分发" [ref=e1743] [cursor=pointer]:
+                      - /url: "#/chapter4/14_query_rewriting"
+                  - listitem [ref=e1744]:
+                    - link "第五节 检索进阶技术" [ref=e1745] [cursor=pointer]:
+                      - /url: "#/chapter4/15_advanced_retrieval_techniques"
+              - listitem [ref=e1746]:
+                - text: 第五章 生成集成
+                - list [ref=e1747]:
+                  - listitem [ref=e1748]:
+                    - link "第一节 格式化生成" [ref=e1749] [cursor=pointer]:
+                      - /url: "#/chapter5/16_formatted_generation"
+              - listitem [ref=e1750]:
+                - text: 第六章 RAG系统评估
+                - list [ref=e1751]:
+                  - listitem [ref=e1752]:
+                    - link "第一节 评估介绍" [ref=e1753] [cursor=pointer]:
+                      - /url: "#/chapter6/18_system_evaluation"
+                  - listitem [ref=e1754]:
+                    - link "第二节 评估工具" [ref=e1755] [cursor=pointer]:
+                      - /url: "#/chapter6/19_common_tools"
+              - listitem [ref=e1756]:
+                - text: 第七章 高级RAG架构（拓展选修篇）
+                - list [ref=e1757]:
+                  - listitem [ref=e1758]:
+                    - link "第一节 基于知识图谱的RAG" [ref=e1759] [cursor=pointer]:
+                      - /url: "#/chapter7/20_kg_rag"
+              - listitem [ref=e1760]:
+                - text: 第八章 项目实战一（基础篇）
+                - list [ref=e1761]:
+                  - listitem [ref=e1762]:
+                    - link "环境配置与项目架构" [ref=e1763] [cursor=pointer]:
+                      - /url: "#/chapter8/01_env_architecture"
+                    - list [ref=e1764]:
+                      - listitem [ref=e1765]:
+                        - text: "-"
+                        - link "一、项目背景" [ref=e1766] [cursor=pointer]:
+                          - /url: "#/chapter8/01_env_architecture?id=%e4%b8%80%e3%80%81%e9%a1%b9%e7%9b%ae%e8%83%8c%e6%99%af"
+                      - listitem [ref=e1767]:
+                        - text: "-"
+                        - link "二、环境配置" [ref=e1768] [cursor=pointer]:
+                          - /url: "#/chapter8/01_env_architecture?id=%e4%ba%8c%e3%80%81%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae"
+                      - list [ref=e1769]:
+                        - listitem [ref=e1770]:
+                          - text: "-"
+                          - link "2.1 创建虚拟环境" [ref=e1771] [cursor=pointer]:
+                            - /url: "#/chapter8/01_env_architecture?id=_21-%e5%88%9b%e5%bb%ba%e8%99%9a%e6%8b%9f%e7%8e%af%e5%a2%83"
+                        - listitem [ref=e1772]:
+                          - text: "-"
+                          - link "2.2 安装核心依赖" [ref=e1773] [cursor=pointer]:
+                            - /url: "#/chapter8/01_env_architecture?id=_22-%e5%ae%89%e8%a3%85%e6%a0%b8%e5%bf%83%e4%be%9d%e8%b5%96"
+                        - listitem [ref=e1774]:
+                          - text: "-"
+                          - link "2.3 申请Kimi API Key" [ref=e1775] [cursor=pointer]:
+                            - /url: "#/chapter8/01_env_architecture?id=_23-%e7%94%b3%e8%af%b7kimi-api-key"
+                        - listitem [ref=e1776]:
+                          - text: "-"
+                          - link "2.4 API配置" [ref=e1777] [cursor=pointer]:
+                            - /url: "#/chapter8/01_env_architecture?id=_24-api%e9%85%8d%e7%bd%ae"
+                      - listitem [ref=e1778]:
+                        - text: "-"
+                        - link "三、项目架构" [ref=e1779] [cursor=pointer]:
+                          - /url: "#/chapter8/01_env_architecture?id=%e4%b8%89%e3%80%81%e9%a1%b9%e7%9b%ae%e6%9e%b6%e6%9e%84"
+                      - list [ref=e1780]:
+                        - listitem [ref=e1781]:
+                          - text: "-"
+                          - link "3.1 项目目标" [ref=e1782] [cursor=pointer]:
+                            - /url: "#/chapter8/01_env_architecture?id=_31-%e9%a1%b9%e7%9b%ae%e7%9b%ae%e6%a0%87"
+                        - listitem [ref=e1783]:
+                          - text: "-"
+                          - link "3.2 数据分析" [ref=e1784] [cursor=pointer]:
+                            - /url: "#/chapter8/01_env_architecture?id=_32-%e6%95%b0%e6%8d%ae%e5%88%86%e6%9e%90"
+                        - listitem [ref=e1785]:
+                          - text: "-"
+                          - link "3.3 整体架构" [ref=e1786] [cursor=pointer]:
+                            - /url: "#/chapter8/01_env_architecture?id=_33-%e6%95%b4%e4%bd%93%e6%9e%b6%e6%9e%84"
+                        - listitem [ref=e1787]:
+                          - text: "-"
+                          - link "3.4 项目结构" [ref=e1788] [cursor=pointer]:
+                            - /url: "#/chapter8/01_env_architecture?id=_34-%e9%a1%b9%e7%9b%ae%e7%bb%93%e6%9e%84"
+                      - listitem [ref=e1789]:
+                        - text: "-"
+                        - link "小结" [ref=e1790] [cursor=pointer]:
+                          - /url: "#/chapter8/01_env_architecture?id=%e5%b0%8f%e7%bb%93"
+                  - listitem [ref=e1791]:
+                    - link "数据准备模块实现" [ref=e1792] [cursor=pointer]:
+                      - /url: "#/chapter8/02_data_preparation"
+                  - listitem [ref=e1793]:
+                    - link "索引构建与检索优化" [ref=e1794] [cursor=pointer]:
+                      - /url: "#/chapter8/03_index_retrieval"
+                  - listitem [ref=e1795]:
+                    - link "生成集成与系统整合" [ref=e1796] [cursor=pointer]:
+                      - /url: "#/chapter8/04_generation_sys"
+              - listitem [ref=e1797]:
+                - text: 第九章 项目实战一优化（选修篇）
+                - list [ref=e1798]:
+                  - listitem [ref=e1799]:
+                    - link "图RAG架构设计" [ref=e1800] [cursor=pointer]:
+                      - /url: "#/chapter9/01_graph_rag_architecture"
+                  - listitem [ref=e1801]:
+                    - link "图数据建模与准备" [ref=e1802] [cursor=pointer]:
+                      - /url: "#/chapter9/02_graph_data_modeling"
+                  - listitem [ref=e1803]:
+                    - link "Milvus索引构建" [ref=e1804] [cursor=pointer]:
+                      - /url: "#/chapter9/03_index_construction"
+                  - listitem [ref=e1805]:
+                    - link "智能查询路由与检索策略" [ref=e1806] [cursor=pointer]:
+                      - /url: "#/chapter9/04_intelligent_query_routing"
+              - listitem [ref=e1807]:
+                - text: 第十章 项目实战二（选修篇）
+                - list [ref=e1808]:
+                  - listitem [ref=e1809]:
+                    - link "规划中..." [ref=e1810] [cursor=pointer]:
+                      - /url: "#/chapter10/"
+    - article [ref=e22]:
+      - generic [ref=e1812]: 2575 字 | 7 分钟
+      - heading "第一节 环境配置与项目架构" [level=1] [ref=e1813]:
+        - link "第一节 环境配置与项目架构" [ref=e1814] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=%e7%ac%ac%e4%b8%80%e8%8a%82-%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae%e4%b8%8e%e9%a1%b9%e7%9b%ae%e6%9e%b6%e6%9e%84"
+      - blockquote [ref=e1815]:
+        - paragraph [ref=e1816]: 经过前面十几天的鏖战也是终于来到了项目实战环节。接下来，通过一个完整的实战项目来把前面学到的知识串联起来，构建一个真正可用的RAG系统。
+      - heading "一、项目背景" [level=2] [ref=e1817]:
+        - link "一、项目背景" [ref=e1818] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=%e4%b8%80%e3%80%81%e9%a1%b9%e7%9b%ae%e8%83%8c%e6%99%af"
+      - paragraph [ref=e1819]:
+        - text: 这个项目的灵感来自于笔者前段时间刷视频时，偶然看到了一个有趣的开源项目介绍——
+        - link "程序员做饭指南" [ref=e1820] [cursor=pointer]:
+          - /url: https://github.com/Anduin2017/HowToCook
+        - text: 。这是一个菜谱项目，用Markdown格式记录了各种菜品的制作方法，从简单的家常菜到复杂的宴客菜，应有尽有。更完美的是，这个项目中每道菜的Markdown文件都严格使用统一的小标题。
+      - paragraph [ref=e1821]:
+        - text: 看到这个项目，笔者立刻想到：能不能构建一个智能问答系统来解决我的选择困难症？每天面对"今天吃什么"这个世纪难题，如果有个AI助手能根据我的需求推荐菜品、告诉我怎么做，那该多好！于是就有了搭建这个
+        - strong [ref=e1822]: 尝尝咸淡RAG系统
+        - text: 的想法。
+      - heading "二、环境配置" [level=2] [ref=e1823]:
+        - link "二、环境配置" [ref=e1824] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=%e4%ba%8c%e3%80%81%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae"
+      - heading "2.1 创建虚拟环境" [level=3] [ref=e1825]:
+        - link "2.1 创建虚拟环境" [ref=e1826] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_21-%e5%88%9b%e5%bb%ba%e8%99%9a%e6%8b%9f%e7%8e%af%e5%a2%83"
+      - generic [ref=e1827]:
+        - code [ref=e1828]: "# 使用conda创建环境 conda create -n cook-rag-1 python=3.12.7 conda activate cook-rag-1"
+        - button "Copy to clipboard Error Copied" [ref=e1829] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: bash
+      - heading "2.2 安装核心依赖" [level=3] [ref=e1830]:
+        - link "2.2 安装核心依赖" [ref=e1831] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_22-%e5%ae%89%e8%a3%85%e6%a0%b8%e5%bf%83%e4%be%9d%e8%b5%96"
+      - paragraph [ref=e1832]: 老规矩，进入本章对应项目目录安装依赖包
+      - generic [ref=e1833]:
+        - code [ref=e1834]: cd code/C8 pip install -r requirements.txt
+        - button "Copy to clipboard Error Copied" [ref=e1835] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: bash
+      - paragraph [ref=e1836]: 如果 API Key 已经配置好了，可以直接使用下面命令运行项目
+      - generic [ref=e1837]:
+        - code [ref=e1838]: python main.py
+        - button "Copy to clipboard Error Copied" [ref=e1839] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: bash
+      - heading "2.3 申请Kimi API Key" [level=3] [ref=e1840]:
+        - link "2.3 申请Kimi API Key" [ref=e1841] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_23-%e7%94%b3%e8%af%b7kimi-api-key"
+      - paragraph [ref=e1842]:
+        - text: Kimi2 发布第八天来尝尝咸淡，申请地址：
+        - link "Kimi API官网" [ref=e1843] [cursor=pointer]:
+          - /url: https://platform.moonshot.cn/console/api-keys
+        - text: 。目前注册会送15元的额度，绰绰有余了。
+      - heading "2.4 API配置" [level=3] [ref=e1844]:
+        - link "2.4 API配置" [ref=e1845] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_24-api%e9%85%8d%e7%bd%ae"
+      - paragraph [ref=e1846]:
+        - text: 参考前面章节
+        - link "环境准备" [ref=e1847] [cursor=pointer]:
+          - /url: "#/../chapter1/02_preparation"
+          - strong [ref=e1848]: 环境准备
+        - text: 中关于api_key的配置方法。在windows下，配置完成后应该如下图所示：
+      - paragraph [ref=e1849]:
+        - img "API配置"
+      - heading "三、项目架构" [level=2] [ref=e1850]:
+        - link "三、项目架构" [ref=e1851] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=%e4%b8%89%e3%80%81%e9%a1%b9%e7%9b%ae%e6%9e%b6%e6%9e%84"
+      - heading "3.1 项目目标" [level=3] [ref=e1852]:
+        - link "3.1 项目目标" [ref=e1853] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_31-%e9%a1%b9%e7%9b%ae%e7%9b%ae%e6%a0%87"
+      - paragraph [ref=e1854]: 我们将基于HowToCook项目的菜谱数据，构建一个智能的食谱问答系统。用户可以：
+      - list [ref=e1855]:
+        - listitem [ref=e1856]: 询问具体菜品的制作方法："宫保鸡丁怎么做？"
+        - listitem [ref=e1857]: 寻求菜品推荐："推荐几个简单的素菜"
+        - listitem [ref=e1858]: 获取食材信息："红烧肉需要什么食材？"
+      - heading "3.2 数据分析" [level=3] [ref=e1859]:
+        - link "3.2 数据分析" [ref=e1860] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_32-%e6%95%b0%e6%8d%ae%e5%88%86%e6%9e%90"
+      - heading "3.2.1 文档分析" [level=4] [ref=e1861]:
+        - link "3.2.1 文档分析" [ref=e1862] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_321-%e6%96%87%e6%a1%a3%e5%88%86%e6%9e%90"
+      - paragraph [ref=e1863]: HowToCook项目包含了大约300多个Markdown格式的菜谱文件。这些菜谱有两个关键特点：一是结构高度规整，每个文件都严格按照统一的格式来组织内容；二是内容篇幅较短，单个菜谱通常在700字左右。
+      - paragraph [ref=e1864]: 打开任意一个菜谱文件，可以发现它们都遵循着相似的结构模式。通常以菜品做法作为一级标题，开头会有一段简介和难度评级，然后分为"必备原料和工具"、"计算"、"操作"、"附加内容"等几个主要部分。比如西红柿炒鸡蛋这道菜：
+      - generic [ref=e1865]:
+        - code [ref=e1866]: "# 西红柿炒鸡蛋的做法 西红柿炒蛋是中国家常几乎最常见的一道菜肴... 预估烹饪难度：★★ ## 必备原料和工具 * 西红柿 * 鸡蛋 * 食用油... ## 计算 每次制作前需要确定计划做几份... * 西红柿 = 1 个（约 180g） * 份数 * 鸡蛋 = 1.5 个 * 份数，向上取整... ## 操作 - 西红柿洗净 - 可选：去掉西红柿的外表皮... ## 附加内容 这道菜根据不同的口味偏好，存在诸多版本..."
+        - button "Copy to clipboard Error Copied" [ref=e1867] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: markdown
+      - paragraph [ref=e1868]:
+        - text: 从数据上来看，这种高度结构化的数据不需要过多处理就可以直接用于RAG系统构建。还记得我们在第2章学过的
+        - link "Markdown结构分块" [ref=e1869] [cursor=pointer]:
+          - /url: "#/../chapter2/05_text_chunking?id=34-%e5%9f%ba%e4%ba%8e%e6%96%87%e6%a1%a3%e7%bb%93%e6%9e%84%e7%9a%84%e5%88%86%e5%9d%97"
+          - strong [ref=e1870]: Markdown结构分块
+        - text: 吗？这个数据完全契合那种按标题层级分块的思路。更重要的是，每个菜谱文件的内容都不算太长，单个章节的内容通常在几百字左右，这意味着可以直接按照标题进行分块，而不用担心第2章提到的那个问题——某个章节内容过长超出模型上下文窗口，需要与常规分块方法（如
+        - code [ref=e1871]: RecursiveCharacterTextSplitter
+        - text: ）组合使用。
+      - heading "3.2.2 结构分块局限" [level=4] [ref=e1872]:
+        - link "3.2.2 结构分块局限" [ref=e1873] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_322-%e7%bb%93%e6%9e%84%e5%88%86%e5%9d%97%e5%b1%80%e9%99%90"
+      - paragraph [ref=e1874]: 虽然Markdown结构分块看起来很理想，但在实际使用中可能会遇到一个问题：按照标题严格分块会把内容切得太细，导致上下文信息不完整。比如用户问"宫保鸡丁怎么做"，如果严格按标题分块，可能只检索到"操作"这一个章节，但缺少了"必备原料和工具"的信息，LLM就无法给出完整的制作指导。甚至有时候检索到的是"附加内容"中的某个变化做法，没有基础制作步骤，回答就会显得莫名其妙。如果你尝试直接把整个菜谱文档作为一个块，可以发现效果反而比结构分块要好，因为上下文信息是完整的。
+      - paragraph [ref=e1875]: 为了解决这个矛盾，可以采用父子文本块的策略：用小的子块进行精确检索，但在生成时传递完整的父文档给LLM。这种方法在第3章的索引优化中虽然没有专门介绍，但本质上也属于上下文拓展的一种应用。通过这种方式，我们既保证了检索的精确性，又确保了生成时上下文的完整性。
+      - blockquote [ref=e1876]:
+        - paragraph [ref=e1877]: 反正都是把整个文档传给LLM，我为什么不直接用整个文档分块呢？
+      - paragraph [ref=e1878]: 这个问题问得很好！关键在于当用户问"宫保鸡丁需要什么调料"时，如果直接用整个文档做向量检索，这个具体问题在整个文档中的占比很小，很可能检索不到或者排名很靠后。但如果用小块检索，"必备原料和工具"这个章节就能精确匹配用户的需求。
+      - paragraph [ref=e1879]: 简单来说，这种设计是"小块检索，大块生成"——用小块的精确性找到相关内容，用大块的完整性保证回答质量。如果直接用整个文档分块，就失去了检索的精确性优势。
+      - heading "3.3 整体架构" [level=3] [ref=e1880]:
+        - link "3.3 整体架构" [ref=e1881] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_33-%e6%95%b4%e4%bd%93%e6%9e%b6%e6%9e%84"
+      - paragraph [ref=e1882]: 数据处理好之后，剩余的部分就是四个主要流程的组合，每个流程对工具进行筛选和优化后就可以构建出一个简单的rag系统。当前项目的架构如下图所示：
+      - document [ref=e1884]:
+        - generic [ref=e1886]:
+          - generic [ref=e1887]:
+            - paragraph [ref=e1894]: 🔍 索引构建模块
+            - paragraph [ref=e1901]: 📚 数据准备模块
+          - generic [ref=e1933]:
+            - paragraph [ref=e1939]: 存在
+            - paragraph [ref=e1945]: 不存在
+            - paragraph [ref=e1951]: list
+            - paragraph [ref=e1957]: detail
+            - paragraph [ref=e1963]: general
+            - paragraph [ref=e1969]: list查询
+            - paragraph [ref=e1975]: detail查询
+            - paragraph [ref=e1981]: general查询
+          - generic [ref=e1982]:
+            - generic [ref=e1983]:
+              - paragraph [ref=e1991]: ⚙️ 配置管理
+              - generic [ref=e1992]:
+                - paragraph [ref=e1999]:
+                  - text: 🎛️ 默认配置
+                  - text: DEFAULT_CONFIG
+                - paragraph [ref=e2006]:
+                  - text: 🔧 自定义配置
+                  - text: RAGConfig
+                - paragraph [ref=e2013]:
+                  - text: 🌐 环境变量
+                  - text: HF_ENDPOINT
+            - paragraph [ref=e2020]: 🚀 系统启动
+            - paragraph [ref=e2027]:
+              - text: ⚙️ 加载配置
+              - text: RAGConfig
+            - paragraph [ref=e2034]: 🔧 初始化模块
+            - paragraph [ref=e2041]: 📂 检查索引缓存
+            - paragraph [ref=e2048]:
+              - text: ⚡ 加载已保存索引
+              - text: 秒级启动
+            - paragraph [ref=e2055]: 🔨 构建新索引
+            - paragraph [ref=e2062]: 💾 保存索引到配置路径
+            - paragraph [ref=e2069]:
+              - text: 📚 加载文档和分块
+              - text: 用于检索模块
+            - paragraph [ref=e2076]: ✅ 系统就绪
+            - paragraph [ref=e2083]: 👤 用户输入问题
+            - paragraph [ref=e2090]: 🎯 查询路由
+            - paragraph [ref=e2097]: 📋 推荐查询
+            - paragraph [ref=e2104]: 📖 详细查询
+            - paragraph [ref=e2111]: ℹ️ 一般查询
+            - paragraph [ref=e2118]: 📝 保持原查询
+            - paragraph [ref=e2125]: 🔄 查询重写
+            - paragraph [ref=e2132]:
+              - text: 🔍 混合检索
+              - text: top_k=config.top_k
+            - paragraph [ref=e2139]:
+              - text: 📊 向量检索
+              - text: config.embedding_model
+            - paragraph [ref=e2146]:
+              - text: 🔤 BM25检索
+              - text: 关键词匹配
+            - paragraph [ref=e2153]: ⚡ RRF重排融合
+            - paragraph [ref=e2160]: 📖 检索到子块
+            - paragraph [ref=e2167]:
+              - text: 🧠 智能去重
+              - text: 按相关性排序
+            - paragraph [ref=e2174]: 📚 获取父文档
+            - paragraph [ref=e2181]: 🎨 生成模式路由
+            - paragraph [ref=e2188]:
+              - text: 📋 生成菜品列表
+              - text: 简洁输出
+            - paragraph [ref=e2195]:
+              - text: 📝 分步指导模式
+              - text: config.llm_model
+              - text: 详细步骤
+            - paragraph [ref=e2202]:
+              - text: 💬 基础回答模式
+              - text: config.temperature
+              - text: 一般信息
+            - paragraph [ref=e2209]: ✨ 返回结果
+            - paragraph [ref=e2216]:
+              - text: 📁 加载Markdown文件
+              - text: config.data_path
+            - paragraph [ref=e2223]: 🔧 元数据增强
+            - paragraph [ref=e2230]: ✂️ 按标题分块
+            - paragraph [ref=e2237]: 🏷️ 父子关系建立
+            - paragraph [ref=e2244]: 📦 输出文本块chunks
+            - paragraph [ref=e2251]:
+              - text: 🤖 BGE嵌入模型
+              - text: config.embedding_model
+            - paragraph [ref=e2258]: 📊 FAISS向量索引
+            - paragraph [ref=e2265]:
+              - text: 💾 索引持久化
+              - text: config.index_save_path
+      - heading "3.4 项目结构" [level=3] [ref=e2266]:
+        - link "3.4 项目结构" [ref=e2267] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=_34-%e9%a1%b9%e7%9b%ae%e7%bb%93%e6%9e%84"
+      - paragraph [ref=e2268]: 基于上面的架构，可以构建出如下项目结构：
+      - generic [ref=e2269]:
+        - code [ref=e2270]: "code/C8/ ├── config.py # 配置管理 ├── main.py # 主程序入口 ├── requirements.txt # 依赖列表 ├── rag_modules/ # 核心模块 │ ├── __init__.py │ ├── data_preparation.py # 数据准备模块 │ ├── index_construction.py # 索引构建模块 │ ├── retrieval_optimization.py # 检索优化模块 │ └── generation_integration.py # 生成集成模块 └── vector_index/ # 向量索引缓存（自动生成）"
+        - button "Copy to clipboard Error Copied" [ref=e2271] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: text
+      - heading "小结" [level=2] [ref=e2272]:
+        - link "小结" [ref=e2273] [cursor=pointer]:
+          - /url: "#/chapter8/01_env_architecture?id=%e5%b0%8f%e7%bb%93"
+      - paragraph [ref=e2274]: 本节从项目背景出发，完成了RAG系统的环境配置和整体架构设计。从下一节开始，我们将深入学习各个模块的具体实现，看看如何将这些设计思路转化为可运行的代码。
+      - link "下一章节 数据准备模块实现" [ref=e2277] [cursor=pointer]:
+        - /url: "#/chapter8/02_data_preparation"
+        - generic [ref=e2278]:
+          - text: 下一章节
+          - img [ref=e2279]
+        - generic [ref=e2281]: 数据准备模块实现
+    - navigation [ref=e195]:
+      - list [ref=e196]:
+        - listitem [ref=e197] [cursor=pointer]:
+          - combobox [ref=e198]:
+            - option "中文" [selected]
+            - option "English"

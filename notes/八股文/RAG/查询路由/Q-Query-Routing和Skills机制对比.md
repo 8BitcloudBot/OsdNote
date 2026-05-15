@@ -194,3 +194,5 @@ context_inject(router[route]["prompt"])
 - [[Q-Agent架构中的路由策略]]
 - [[Q-RAG 系统的 Query Routing 设计]]
 - [[Q-Skills 机制和 Function Calling 对比]]
+- [[Q-RAG和Agent的区别与选择]]
+- [[Q-什么时候需要Agent]]

@@ -1,0 +1,754 @@
+- generic [active] [ref=e1]:
+  - link "View source on Github" [ref=e2] [cursor=pointer]:
+    - /url: https://github.com/datawhalechina/all-in-rag
+    - img [ref=e3]
+  - main [ref=e7]:
+    - button "Menu" [ref=e8] [cursor=pointer]
+    - complementary [ref=e13]:
+      - searchbox "Search text" [ref=e16]
+      - heading "All-in-RAG" [level=1] [ref=e17]:
+        - link "All-in-RAG" [ref=e18] [cursor=pointer]:
+          - /url: /all-in-rag/
+          - img "All-in-RAG" [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e305] [cursor=pointer]: ☀️ Switch to Dark
+        - list [ref=e306]:
+          - listitem [ref=e307]:
+            - text: 目录
+            - list [ref=e308]:
+              - listitem [ref=e309]:
+                - text: 第一章 解锁RAG
+                - list [ref=e310]:
+                  - listitem [ref=e311]:
+                    - link "第一节 RAG简介" [ref=e312] [cursor=pointer]:
+                      - /url: "#/chapter1/01_RAG_intro"
+                  - listitem [ref=e313]:
+                    - link "第二节 准备工作" [ref=e314] [cursor=pointer]:
+                      - /url: "#/chapter1/02_preparation"
+                  - listitem [ref=e315]:
+                    - link "第三节 四步构建RAG" [ref=e316] [cursor=pointer]:
+                      - /url: "#/chapter1/03_get_start_rag"
+                  - listitem [ref=e317]:
+                    - link "附：Python虚拟环境部署方案补充" [ref=e318] [cursor=pointer]:
+                      - /url: "#/chapter1/virtualenv"
+              - listitem [ref=e319]:
+                - text: 第二章 数据准备
+                - list [ref=e320]:
+                  - listitem [ref=e321]:
+                    - link "第一节 数据加载" [ref=e322] [cursor=pointer]:
+                      - /url: "#/chapter2/04_data_load"
+                  - listitem [ref=e323]:
+                    - link "第二节 文本分块" [ref=e324] [cursor=pointer]:
+                      - /url: "#/chapter2/05_text_chunking"
+              - listitem [ref=e325]:
+                - text: 第三章 索引构建
+                - list [ref=e326]:
+                  - listitem [ref=e327]:
+                    - link "第一节 向量嵌入" [ref=e328] [cursor=pointer]:
+                      - /url: "#/chapter3/06_vector_embedding"
+                  - listitem [ref=e329]:
+                    - link "第二节 多模态嵌入" [ref=e330] [cursor=pointer]:
+                      - /url: "#/chapter3/07_multimodal_embedding"
+                  - listitem [ref=e331]:
+                    - link "第三节 向量数据库" [ref=e332] [cursor=pointer]:
+                      - /url: "#/chapter3/08_vector_db"
+                  - listitem [ref=e333]:
+                    - link "第四节 Milvus实践" [ref=e334] [cursor=pointer]:
+                      - /url: "#/chapter3/09_milvus"
+                  - listitem [ref=e335]:
+                    - link "第五节 索引优化" [ref=e336] [cursor=pointer]:
+                      - /url: "#/chapter3/10_index_optimization"
+              - listitem [ref=e337]:
+                - text: 第四章 检索优化
+                - list [ref=e338]:
+                  - listitem [ref=e339]:
+                    - link "第一节 混合检索" [ref=e340] [cursor=pointer]:
+                      - /url: "#/chapter4/11_hybrid_search"
+                  - listitem [ref=e341]:
+                    - link "第二节 查询构建" [ref=e342] [cursor=pointer]:
+                      - /url: "#/chapter4/12_query_construction"
+                  - listitem [ref=e343]:
+                    - link "第三节 Text2SQL" [ref=e344] [cursor=pointer]:
+                      - /url: "#/chapter4/13_text2sql"
+                  - listitem [ref=e345]:
+                    - link "第四节 查询重构与分发" [ref=e346] [cursor=pointer]:
+                      - /url: "#/chapter4/14_query_rewriting"
+                  - listitem [ref=e347]:
+                    - link "第五节 检索进阶技术" [ref=e348] [cursor=pointer]:
+                      - /url: "#/chapter4/15_advanced_retrieval_techniques"
+              - listitem [ref=e349]:
+                - text: 第五章 生成集成
+                - list [ref=e350]:
+                  - listitem [ref=e351]:
+                    - link "第一节 格式化生成" [ref=e352] [cursor=pointer]:
+                      - /url: "#/chapter5/16_formatted_generation"
+              - listitem [ref=e353]:
+                - text: 第六章 RAG系统评估
+                - list [ref=e354]:
+                  - listitem [ref=e355]:
+                    - link "第一节 评估介绍" [ref=e356] [cursor=pointer]:
+                      - /url: "#/chapter6/18_system_evaluation"
+                    - list [ref=e357]:
+                      - listitem [ref=e358]:
+                        - text: "-"
+                        - link "一、RAG评估三元组" [ref=e359] [cursor=pointer]:
+                          - /url: "#/chapter6/18_system_evaluation?id=%e4%b8%80%e3%80%81rag%e8%af%84%e4%bc%b0%e4%b8%89%e5%85%83%e7%bb%84"
+                      - listitem [ref=e360]:
+                        - text: "-"
+                        - link "二、评估工作流" [ref=e361] [cursor=pointer]:
+                          - /url: "#/chapter6/18_system_evaluation?id=%e4%ba%8c%e3%80%81%e8%af%84%e4%bc%b0%e5%b7%a5%e4%bd%9c%e6%b5%81"
+                      - list [ref=e362]:
+                        - listitem [ref=e363]:
+                          - text: "-"
+                          - link "2.1 检索评估" [ref=e364] [cursor=pointer]:
+                            - /url: "#/chapter6/18_system_evaluation?id=_21-%e6%a3%80%e7%b4%a2%e8%af%84%e4%bc%b0"
+                        - listitem [ref=e365]:
+                          - text: "-"
+                          - link "2.2 响应评估" [ref=e366] [cursor=pointer]:
+                            - /url: "#/chapter6/18_system_evaluation?id=_22-%e5%93%8d%e5%ba%94%e8%af%84%e4%bc%b0"
+                      - listitem [ref=e367]:
+                        - text: "-"
+                        - link "参考文献" [ref=e368] [cursor=pointer]:
+                          - /url: "#/chapter6/18_system_evaluation?id=%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae"
+                  - listitem [ref=e369]:
+                    - link "第二节 评估工具" [ref=e370] [cursor=pointer]:
+                      - /url: "#/chapter6/19_common_tools"
+              - listitem [ref=e371]:
+                - text: 第七章 高级RAG架构（拓展选修篇）
+                - list [ref=e372]:
+                  - listitem [ref=e373]:
+                    - link "第一节 基于知识图谱的RAG" [ref=e374] [cursor=pointer]:
+                      - /url: "#/chapter7/20_kg_rag"
+              - listitem [ref=e375]:
+                - text: 第八章 项目实战一（基础篇）
+                - list [ref=e376]:
+                  - listitem [ref=e377]:
+                    - link "环境配置与项目架构" [ref=e378] [cursor=pointer]:
+                      - /url: "#/chapter8/01_env_architecture"
+                  - listitem [ref=e379]:
+                    - link "数据准备模块实现" [ref=e380] [cursor=pointer]:
+                      - /url: "#/chapter8/02_data_preparation"
+                  - listitem [ref=e381]:
+                    - link "索引构建与检索优化" [ref=e382] [cursor=pointer]:
+                      - /url: "#/chapter8/03_index_retrieval"
+                  - listitem [ref=e383]:
+                    - link "生成集成与系统整合" [ref=e384] [cursor=pointer]:
+                      - /url: "#/chapter8/04_generation_sys"
+              - listitem [ref=e385]:
+                - text: 第九章 项目实战一优化（选修篇）
+                - list [ref=e386]:
+                  - listitem [ref=e387]:
+                    - link "图RAG架构设计" [ref=e388] [cursor=pointer]:
+                      - /url: "#/chapter9/01_graph_rag_architecture"
+                  - listitem [ref=e389]:
+                    - link "图数据建模与准备" [ref=e390] [cursor=pointer]:
+                      - /url: "#/chapter9/02_graph_data_modeling"
+                  - listitem [ref=e391]:
+                    - link "Milvus索引构建" [ref=e392] [cursor=pointer]:
+                      - /url: "#/chapter9/03_index_construction"
+                  - listitem [ref=e393]:
+                    - link "智能查询路由与检索策略" [ref=e394] [cursor=pointer]:
+                      - /url: "#/chapter9/04_intelligent_query_routing"
+              - listitem [ref=e395]:
+                - text: 第十章 项目实战二（选修篇）
+                - list [ref=e396]:
+                  - listitem [ref=e397]:
+                    - link "规划中..." [ref=e398] [cursor=pointer]:
+                      - /url: "#/chapter10/"
+    - article [ref=e22]:
+      - generic [ref=e400]: 2769 字 | 7 分钟
+      - heading "第一节 评估介绍" [level=1] [ref=e401]:
+        - link "第一节 评估介绍" [ref=e402] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=%e7%ac%ac%e4%b8%80%e8%8a%82-%e8%af%84%e4%bc%b0%e4%bb%8b%e7%bb%8d"
+      - blockquote [ref=e403]:
+        - paragraph [ref=e404]: 构建RAG系统后，下一个关键问题是：如何科学地评估其表现？
+      - paragraph [ref=e405]: 评估之所以关键，是因为它回答了RAG开发与应用中的一系列核心问题：
+      - list [ref=e406]:
+        - listitem [ref=e407]:
+          - strong [ref=e408]: 对于开发者：
+          - text: 如何量化地追踪、迭代并提升RAG应用的性能？当系统出现“幻觉”或答非所问时，如何快速定位问题根源？
+        - listitem [ref=e409]:
+          - strong [ref=e410]: 对于用户或决策者：
+          - text: 面对两个不同的RAG应用，如何客观地评判孰优孰劣？
+      - paragraph [ref=e411]:
+        - text: 本节将探讨RAG评估的理念与方法，并围绕
+        - strong [ref=e412]: “RAG三元组（RAG Triad）”
+        - text: 展开。
+      - paragraph [ref=e413]:
+        - img "RAG Triad"
+      - heading "一、RAG评估三元组" [level=2] [ref=e414]:
+        - link "一、RAG评估三元组" [ref=e415] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=%e4%b8%80%e3%80%81rag%e8%af%84%e4%bc%b0%e4%b8%89%e5%85%83%e7%bb%84"
+      - paragraph [ref=e416]:
+        - text: 该架构包含以下三个维度，并在
+        - strong [ref=e417]: TruLens
+        - superscript [ref=e418]:
+          - link "1" [ref=e419] [cursor=pointer]:
+            - /url: "#fn-1"
+        - text: 等工具中有深入的应用：
+      - paragraph [ref=e420]:
+        - text: （1）
+        - strong [ref=e421]: 上下文相关性 (Context Relevance)
+      - list [ref=e422]:
+        - listitem [ref=e423]:
+          - strong [ref=e424]: 评估目标：
+          - text: 检索器（Retriever）的性能。
+        - listitem [ref=e425]:
+          - strong [ref=e426]: 核心问题：
+          - text: 检索到的上下文内容，是否与用户的查询（Query）高度相关？
+        - listitem [ref=e427]:
+          - strong [ref=e428]: 重要性：
+          - text: 检索是RAG应用在响应用户查询时的第一步。如果检索回来的上下文充满了噪声或无关信息，那么无论后续的生成模型多么强大，都没法做出正确答案。
+      - paragraph [ref=e429]:
+        - text: （2）
+        - strong [ref=e430]: 忠实度 / 可信度 (Faithfulness / Groundedness)
+      - list [ref=e431]:
+        - listitem [ref=e432]:
+          - strong [ref=e433]: 评估目标：
+          - text: 生成器的可靠性。
+        - listitem [ref=e434]:
+          - strong [ref=e435]: 核心问题：
+          - text: 生成的答案是否完全基于所提供的上下文信息？
+        - listitem [ref=e436]:
+          - strong [ref=e437]: 重要性：
+          - text: 这个维度主要在于量化LLM的“幻觉”程度。一个高忠实度的回答意味着模型严格遵守了上下文，没有捏造或歪曲事实。如果忠实度得分低，说明LLM在回答时“自由发挥”过度，引入了外部知识或不实信息。
+      - paragraph [ref=e438]:
+        - text: （3）
+        - strong [ref=e439]: 答案相关性 (Answer Relevance)
+      - list [ref=e440]:
+        - listitem [ref=e441]:
+          - strong [ref=e442]: 评估目标：
+          - text: 系统的端到端（End-to-End）表现。
+        - listitem [ref=e443]:
+          - strong [ref=e444]: 核心问题：
+          - text: 最终生成的答案是否直接、完整且有效地回答了用户的原始问题？
+        - listitem [ref=e445]:
+          - strong [ref=e446]: 重要性：
+          - text: 这是用户最直观的感受。一个答案可能完全基于上下文（高忠实度），但如果它答非所问，或者只回答了问题的一部分，那么这个答案的相关性就很低。例如，当用户问“法国在哪里，首都是哪里？”，如果答案只是“法国在西欧”，那么虽然忠实度高，但答案相关性很低。
+      - blockquote [ref=e447]:
+        - paragraph [ref=e448]: 你可能觉得忠实度和答案相关性很相似，但它们的侧重点是不同的。忠实度更关注模型是否严格遵循了上下文，而答案相关性则更关注模型是否直接、完整且有效地回答了问题。
+      - paragraph [ref=e449]: 通过对这三个维度进行评估，可以对RAG系统的表现有一个全面而细致的了解，并能准确定位问题所在：是检索出了问题，还是生成环节有待改进。
+      - heading "二、评估工作流" [level=2] [ref=e450]:
+        - link "二、评估工作流" [ref=e451] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=%e4%ba%8c%e3%80%81%e8%af%84%e4%bc%b0%e5%b7%a5%e4%bd%9c%e6%b5%81"
+      - paragraph [ref=e452]:
+        - text: 虽然上面把评估分成了三个部分，但实际上可以把评估过程拆解为两个主要环节：
+        - strong [ref=e453]: 检索评估
+        - text: 和
+        - strong [ref=e454]: 响应评估
+        - text: 。
+      - heading "2.1 检索评估" [level=3] [ref=e455]:
+        - link "2.1 检索评估" [ref=e456] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=_21-%e6%a3%80%e7%b4%a2%e8%af%84%e4%bc%b0"
+      - paragraph [ref=e457]:
+        - text: 检索评估聚焦于RAG三元组中的
+        - strong [ref=e458]:
+          - text: 上下文相关性 (Context Relevance)
+          - strong [ref=e459]: ，本质上是一次
+          - text: 白盒测试
+        - superscript [ref=e460]:
+          - link "2" [ref=e461] [cursor=pointer]:
+            - /url: "#fn-2"
+        - text: 。此阶段的评估需要一个标注数据集，其中包含一系列查询以及每个查询对应的真实相关文档。
+      - paragraph [ref=e462]: 这项评估借鉴了信息检索领域的多个经典指标：
+      - list [ref=e463]:
+        - listitem [ref=e464]:
+          - paragraph [ref=e465]:
+            - strong [ref=e466]: "上下文精确率 (Context Precision):"
+            - text: 衡量检索结果的准确性。计算在检索到的前
+            - strong [ref=e467]: k
+            - text: 个文档中相关文档所占的比例，其中
+            - strong [ref=e468]: k
+            - text: 是一个预设的数字（例如，k=3或k=5），代表评估的范围。高精确率意味着检索结果的噪声较少。
+          - paragraph [ref=e469]:
+            - generic [ref=e471]:
+              - math [ref=e473]:
+                - generic [ref=e475]:
+                  - generic [ref=e476]: Precision
+                  - generic [ref=e477]: "@"
+                  - generic [ref=e478]: k
+                  - generic [ref=e479]: =
+                  - generic [ref=e480]:
+                    - generic [ref=e481]:
+                      - generic [ref=e482]: 检索到的
+                      - generic [ref=e483]: k
+                      - generic [ref=e484]: 个结果中的相关文档数
+                    - generic [ref=e485]: k
+              - generic [ref=e486]:
+                - generic [ref=e487]:
+                  - generic [ref=e488]: Precision
+                  - text: "@k ="
+                - generic [ref=e494]:
+                  - generic [ref=e495]: k
+                  - generic [ref=e497]:
+                    - generic [ref=e498]: 检索到的
+                    - text: k
+                    - generic [ref=e499]: 个结果中的相关文档数
+        - listitem [ref=e503]:
+          - paragraph [ref=e504]:
+            - strong [ref=e505]: "上下文召回率 (Context Recall):"
+            - text: 衡量检索结果的完整性。计算在检索到的前
+            - strong [ref=e506]: k
+            - text: 个文档中，找到的相关文档占所有真实相关文档总数的比例。高召回率意味着系统能够成功找回大部分关键信息。
+          - paragraph [ref=e507]:
+            - generic [ref=e509]:
+              - math [ref=e511]:
+                - generic [ref=e513]:
+                  - generic [ref=e514]: Recall
+                  - generic [ref=e515]: "@"
+                  - generic [ref=e516]: k
+                  - generic [ref=e517]: =
+                  - generic [ref=e518]:
+                    - generic [ref=e519]:
+                      - generic [ref=e520]: 检索到的
+                      - generic [ref=e521]: k
+                      - generic [ref=e522]: 个结果中的相关文档数
+                    - generic [ref=e523]: 数据集中所有相关的文档总数
+              - generic [ref=e524]:
+                - generic [ref=e525]:
+                  - generic [ref=e526]: Recall
+                  - text: "@k ="
+                - generic [ref=e532]:
+                  - generic [ref=e534]: 数据集中所有相关的文档总数
+                  - generic [ref=e536]:
+                    - generic [ref=e537]: 检索到的
+                    - text: k
+                    - generic [ref=e538]: 个结果中的相关文档数
+        - listitem [ref=e542]:
+          - paragraph [ref=e543]:
+            - strong [ref=e544]: "F1分数 (F1-Score):"
+            - text: F1分数是精确率和召回率的调和平均数，它同时兼顾了这两个指标，在它们之间寻求平衡。当精确率和召回率都高时，F1分数也高。
+          - paragraph [ref=e545]:
+            - generic [ref=e547]:
+              - math [ref=e549]:
+                - generic [ref=e551]:
+                  - generic [ref=e552]:
+                    - generic [ref=e553]: F
+                    - generic [ref=e554]: "1"
+                  - generic [ref=e555]: =
+                  - generic [ref=e556]: "2"
+                  - generic [ref=e557]: ⋅
+                  - generic [ref=e558]:
+                    - generic [ref=e559]:
+                      - generic [ref=e560]: Precision
+                      - generic [ref=e561]: ×
+                      - generic [ref=e562]: Recall
+                    - generic [ref=e563]:
+                      - generic [ref=e564]: Precision
+                      - generic [ref=e565]: +
+                      - generic [ref=e566]: Recall
+              - generic [ref=e567]:
+                - generic [ref=e568]:
+                  - generic [ref=e569]:
+                    - text: F
+                    - generic [ref=e574]: "1"
+                  - text: =
+                - generic [ref=e578]: 2 ⋅
+                - generic [ref=e584]:
+                  - generic [ref=e585]:
+                    - generic [ref=e586]: Precision
+                    - text: +
+                    - generic [ref=e587]: Recall
+                  - generic [ref=e589]:
+                    - generic [ref=e590]: Precision
+                    - text: ×
+                    - generic [ref=e591]: Recall
+        - listitem [ref=e595]:
+          - paragraph [ref=e596]:
+            - strong [ref=e597]: "平均倒数排名 (MRR - Mean Reciprocal Rank):"
+            - text: 评估系统将第一个相关文档排在靠前位置的能力。对于一个查询，倒数排名是第一个相关文档排名的倒数。MRR是所有查询的倒数排名的平均值。该指标适用于用户通常只关心第一个正确答案的场景。
+          - paragraph [ref=e598]:
+            - generic [ref=e600]:
+              - math [ref=e602]:
+                - generic [ref=e604]:
+                  - generic [ref=e605]: MRR
+                  - generic [ref=e606]: =
+                  - generic [ref=e607]:
+                    - generic [ref=e608]: "1"
+                    - generic [ref=e609]:
+                      - generic [ref=e610]: ∣
+                      - generic [ref=e611]: Q
+                      - generic [ref=e612]: ∣
+                  - generic [ref=e613]:
+                    - generic [ref=e614]: ∑
+                    - generic [ref=e615]:
+                      - generic [ref=e616]: q
+                      - generic [ref=e617]: =
+                      - generic [ref=e618]: "1"
+                    - generic [ref=e619]:
+                      - generic [ref=e620]: ∣
+                      - generic [ref=e621]: Q
+                      - generic [ref=e622]: ∣
+                  - generic [ref=e623]:
+                    - generic [ref=e624]: "1"
+                    - generic [ref=e625]:
+                      - generic [ref=e626]: rank
+                      - generic [ref=e627]: q
+              - generic [ref=e628]:
+                - generic [ref=e629]:
+                  - generic [ref=e630]: MRR
+                  - text: =
+                - generic [ref=e631]:
+                  - generic [ref=e636]:
+                    - generic [ref=e637]: ∣Q∣
+                    - generic [ref=e639]: "1"
+                  - generic [ref=e646]:
+                    - generic [ref=e648]: q=1
+                    - generic [ref=e649]: ∑
+                    - generic [ref=e651]: ∣Q∣
+                  - generic [ref=e659]:
+                    - generic [ref=e661]:
+                      - generic [ref=e662]: rank
+                      - generic [ref=e667]: q
+                    - generic [ref=e672]: "1"
+          - paragraph [ref=e676]:
+            - text: 其中
+            - code [ref=e677]: "|Q|"
+            - text: 是查询总数，
+            - code [ref=e678]: rank_q
+            - text: 是第
+            - code [ref=e679]: q
+            - text: 个查询的第一个相关文档的排名。
+        - listitem [ref=e680]:
+          - paragraph [ref=e681]:
+            - strong [ref=e682]: "平均准确率均值 (MAP - Mean Average Precision):"
+            - text: MAP是一个综合性指标，同时评估了检索结果的精确率和相关文档的排名。它先计算每个查询的平均精确率（AP），然后对所有查询的AP取平均值。AP本身是基于每个相关文档被检索到时的精确率计算的。
+          - paragraph [ref=e683]:
+            - generic [ref=e685]:
+              - math [ref=e687]:
+                - generic [ref=e689]:
+                  - generic [ref=e690]: MAP
+                  - generic [ref=e691]: =
+                  - generic [ref=e692]:
+                    - generic [ref=e693]: "1"
+                    - generic [ref=e694]:
+                      - generic [ref=e695]: ∣
+                      - generic [ref=e696]: Q
+                      - generic [ref=e697]: ∣
+                  - generic [ref=e698]:
+                    - generic [ref=e699]: ∑
+                    - generic [ref=e700]:
+                      - generic [ref=e701]: q
+                      - generic [ref=e702]: =
+                      - generic [ref=e703]: "1"
+                    - generic [ref=e704]:
+                      - generic [ref=e705]: ∣
+                      - generic [ref=e706]: Q
+                      - generic [ref=e707]: ∣
+                  - generic [ref=e708]: AP
+                  - generic [ref=e709]: (
+                  - generic [ref=e710]: q
+                  - generic [ref=e711]: )
+              - generic [ref=e712]:
+                - generic [ref=e713]:
+                  - generic [ref=e714]: MAP
+                  - text: =
+                - generic [ref=e715]:
+                  - generic [ref=e720]:
+                    - generic [ref=e721]: ∣Q∣
+                    - generic [ref=e723]: "1"
+                  - generic [ref=e730]:
+                    - generic [ref=e732]: q=1
+                    - generic [ref=e733]: ∑
+                    - generic [ref=e735]: ∣Q∣
+                  - generic [ref=e739]: AP
+                  - text: (q)
+          - paragraph [ref=e740]:
+            - text: 其中
+            - code [ref=e741]: "|Q|"
+            - text: 是查询总数，
+            - code [ref=e742]: AP(q)
+            - text: 是第
+            - code [ref=e743]: q
+            - text: 个查询的平均精确率（Average Precision）。
+      - paragraph [ref=e744]: 要计算上述所有指标，前提是拥有一个高质量的标注数据集，其中包含了查询和每个查询对应的“真实”相关文档。
+      - heading "2.2 响应评估" [level=3] [ref=e745]:
+        - link "2.2 响应评估" [ref=e746] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=_22-%e5%93%8d%e5%ba%94%e8%af%84%e4%bc%b0"
+      - paragraph [ref=e747]:
+        - text: 响应评估覆盖了RAG三元组中的
+        - strong [ref=e748]: 忠实度
+        - text: 和
+        - strong [ref=e749]: 答案相关性
+        - text: 。此环节通常采用
+        - strong [ref=e750]: 端到端
+        - text: 的评估范式，因为它直接衡量用户感知的最终输出质量。无论采用何种评估方法，都主要围绕以下两个核心维度展开。
+      - heading "2.2.1 评估维度" [level=4] [ref=e751]:
+        - link "2.2.1 评估维度" [ref=e752] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=_221-%e8%af%84%e4%bc%b0%e7%bb%b4%e5%ba%a6"
+      - paragraph [ref=e753]:
+        - text: （1）
+        - strong [ref=e754]: 忠实度 / 可信度
+        - text: ：衡量生成的答案在多大程度上可以由给定的上下文所证实。一个完全忠实的答案，其所有内容都必须能在上下文中找到依据，以此避免模型产生“幻觉”。
+      - paragraph [ref=e755]:
+        - text: （2）
+        - strong [ref=e756]: 答案相关性
+        - text: ：衡量生成的答案与用户原始查询的对齐程度。一个高相关性的答案必须是直接的、切题的，并且不包含与问题无关的冗余信息。
+      - heading "2.2.2 主要评估方法" [level=4] [ref=e757]:
+        - link "2.2.2 主要评估方法" [ref=e758] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=_222-%e4%b8%bb%e8%a6%81%e8%af%84%e4%bc%b0%e6%96%b9%e6%b3%95"
+      - paragraph [ref=e759]: 针对上述维度，目前主要有两类评估方法：
+      - paragraph [ref=e760]:
+        - text: （1）
+        - strong [ref=e761]: 基于大语言模型的评估
+      - paragraph [ref=e762]: 这是一种强大的评估方法，能够提供更深度的语义评估，正逐渐成为主流选择。利用一个高性能、中立的llm作为“评估者”，对上述维度进行深度的语义理解和打分。
+      - list [ref=e763]:
+        - listitem [ref=e764]:
+          - strong [ref=e765]: 忠实度评估：
+          - text: 首先，将生成的答案分解为一系列独立的声明或断言（Claims）。然后，对于每一个断言，在提供的上下文中进行验证，判断其真伪。最终的忠实度分数是所有被上下文证实的断言所占的比例。
+        - listitem [ref=e766]:
+          - strong [ref=e767]: 答案相关性评估：
+          - text: 评估者需要同时分析用户查询和生成的答案。评分时会惩罚那些答非所问、信息不完整或包含过多无关细节的答案。
+      - paragraph [ref=e768]:
+        - text: （2）
+        - strong [ref=e769]: 基于词汇重叠的经典指标
+      - paragraph [ref=e770]: 这类指标需要在数据集中包含一个或多个“标准答案”。它们通过计算生成答案与标准答案之间 n-gram（连续的n个词）的重叠程度来评估质量。
+      - list [ref=e771]:
+        - listitem [ref=e772]:
+          - paragraph [ref=e773]:
+            - strong [ref=e774]: "ROUGE (Recall-Oriented Understudy for Gisting Evaluation):"
+            - text: ROUGE关注的重点是
+            - strong [ref=e775]: 召回率
+            - text: ，即标准答案中的词语有多少被生成答案所覆盖，因此常用于评估内容的
+            - strong [ref=e776]: 完整性
+            - text: 。其常用变体包括计算n-gram的
+            - code [ref=e777]: ROUGE-N
+            - text: 和计算最长公共子序列的
+            - code [ref=e778]: ROUGE-L
+            - text: 。
+          - paragraph [ref=e779]:
+            - generic [ref=e781]:
+              - math [ref=e783]:
+                - generic [ref=e785]:
+                  - generic [ref=e786]: ROUGE-N
+                  - generic [ref=e787]: =
+                  - generic [ref=e788]:
+                    - generic [ref=e789]:
+                      - generic [ref=e790]: 匹配的
+                      - generic [ref=e791]: "n"
+                      - generic [ref=e792]: "-gram 数量"
+                    - generic [ref=e793]:
+                      - generic [ref=e794]: 参考答案中
+                      - generic [ref=e795]: "n"
+                      - generic [ref=e796]: "-gram 的总数"
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - generic [ref=e799]: ROUGE-N
+                  - text: =
+                - generic [ref=e805]:
+                  - generic [ref=e806]:
+                    - generic [ref=e807]: 参考答案中
+                    - text: "n"
+                    - generic [ref=e808]: "-gram 的总数"
+                  - generic [ref=e810]:
+                    - generic [ref=e811]: 匹配的
+                    - text: "n"
+                    - generic [ref=e812]: "-gram 数量"
+        - listitem [ref=e816]:
+          - paragraph [ref=e817]:
+            - strong [ref=e818]: "BLEU (Bilingual Evalu ation Understudy):"
+            - text: BLEU侧重于评估
+            - strong [ref=e819]: 精确率
+            - text: ，衡量生成的答案中有多少词是有效的（即在标准答案中出现过）。它还引入了长度惩罚机制，避免模型生成过短的句子，因此更适合评估答案的
+            - strong [ref=e820]: 流畅度和准确性
+            - text: 。
+          - paragraph [ref=e821]:
+            - generic [ref=e823]:
+              - math [ref=e825]:
+                - generic [ref=e827]:
+                  - generic [ref=e828]: BLEU
+                  - generic [ref=e829]: =
+                  - generic [ref=e830]: BP
+                  - generic [ref=e831]: ×
+                  - generic [ref=e832]: exp
+                  - generic: ⁡
+                  - generic [ref=e833]:
+                    - generic [ref=e834]: (
+                    - generic [ref=e835]:
+                      - generic [ref=e836]: ∑
+                      - generic [ref=e837]:
+                        - generic [ref=e838]: "n"
+                        - generic [ref=e839]: =
+                        - generic [ref=e840]: "1"
+                      - generic [ref=e841]: "N"
+                    - generic [ref=e842]:
+                      - generic [ref=e843]: w
+                      - generic [ref=e844]: "n"
+                    - generic [ref=e845]: log
+                    - generic: ⁡
+                    - generic [ref=e846]:
+                      - generic [ref=e847]: p
+                      - generic [ref=e848]: "n"
+                    - generic [ref=e849]: )
+              - generic [ref=e850]:
+                - generic [ref=e851]:
+                  - generic [ref=e852]: BLEU
+                  - text: =
+                - generic [ref=e853]:
+                  - generic [ref=e854]: BP
+                  - text: ×
+                - generic [ref=e855]:
+                  - text: exp
+                  - generic [ref=e856]:
+                    - generic [ref=e857]: (
+                    - generic [ref=e861]:
+                      - generic [ref=e863]: n=1
+                      - generic [ref=e864]: ∑
+                      - generic [ref=e866]: "N"
+                    - generic [ref=e870]:
+                      - text: w
+                      - generic [ref=e875]: "n"
+                    - generic [ref=e879]: log
+                    - generic [ref=e880]:
+                      - text: p
+                      - generic [ref=e885]: "n"
+                    - generic [ref=e889]: )
+          - paragraph [ref=e890]:
+            - text: 其中，
+            - code [ref=e891]: BP
+            - text: 是长度惩罚因子，
+            - code [ref=e892]: p_n
+            - text: 是修正后的n-gram精确率。
+        - listitem [ref=e893]:
+          - paragraph [ref=e894]:
+            - strong [ref=e895]: "METEOR (Metric for Evaluation of Translation with Explicit ORdering):"
+            - text: 作为BLEU的改进版，METEOR同时考量
+            - strong [ref=e896]: 精确率和召回率
+            - text: 的调和平均，并通过词干和同义词匹配（如将'boat'和'ship'视为相关）来更好地捕捉语义相似性。其评估结果通常被认为与人类判断的相关性更高。
+          - paragraph [ref=e897]:
+            - generic [ref=e899]:
+              - math [ref=e901]:
+                - generic [ref=e903]:
+                  - generic [ref=e904]:
+                    - generic [ref=e905]: F
+                    - generic [ref=e906]: mean
+                  - generic [ref=e907]: =
+                  - generic [ref=e908]:
+                    - generic [ref=e909]:
+                      - generic [ref=e910]: P
+                      - generic [ref=e911]: ×
+                      - generic [ref=e912]: R
+                    - generic [ref=e913]:
+                      - generic [ref=e914]: α
+                      - generic [ref=e915]: P
+                      - generic [ref=e916]: +
+                      - generic [ref=e917]: (
+                      - generic [ref=e918]: "1"
+                      - generic [ref=e919]: −
+                      - generic [ref=e920]: α
+                      - generic [ref=e921]: )
+                      - generic [ref=e922]: R
+              - generic [ref=e923]:
+                - generic [ref=e924]:
+                  - generic [ref=e925]:
+                    - text: F
+                    - generic [ref=e932]: mean
+                  - text: =
+                - generic [ref=e941]:
+                  - generic [ref=e942]: αP + (1 − α)R
+                  - generic [ref=e944]: P × R
+          - paragraph [ref=e948]:
+            - generic [ref=e950]:
+              - math [ref=e952]:
+                - generic [ref=e954]:
+                  - generic [ref=e955]: METEOR
+                  - generic [ref=e956]: =
+                  - generic [ref=e957]:
+                    - generic [ref=e958]: F
+                    - generic [ref=e959]: mean
+                  - generic [ref=e960]: ×
+                  - generic [ref=e961]: (
+                  - generic [ref=e962]: "1"
+                  - generic [ref=e963]: −
+                  - generic [ref=e964]: Penalty
+                  - generic [ref=e965]: )
+              - generic [ref=e966]:
+                - generic [ref=e967]:
+                  - generic [ref=e968]: METEOR
+                  - text: =
+                - generic [ref=e969]:
+                  - generic [ref=e970]:
+                    - text: F
+                    - generic [ref=e977]: mean
+                  - text: ×
+                - generic [ref=e981]: (1 −
+                - generic [ref=e982]:
+                  - generic [ref=e983]: Penalty
+                  - text: )
+          - paragraph [ref=e984]:
+            - text: 其中
+            - code [ref=e985]: P
+            - text: 是精确率，
+            - code [ref=e986]: R
+            - text: 是召回率，
+            - code [ref=e987]: Penalty
+            - text: 是基于语序的惩罚项。
+      - blockquote [ref=e988]:
+        - paragraph [ref=e989]: 为了更直观地理解三者的区别，来看一个简单的例子。
+        - paragraph [ref=e990]:
+          - strong [ref=e991]: 假设：
+        - list [ref=e992]:
+          - listitem [ref=e993]:
+            - strong [ref=e994]: 参考答案：
+            - code [ref=e995]: 狗 在 床 上面
+            - text: (共5个词)
+          - listitem [ref=e996]:
+            - strong [ref=e997]: 生成答案：
+            - code [ref=e998]: 狗 在 床 上
+            - text: (共4个词)
+        - paragraph [ref=e999]:
+          - strong [ref=e1000]: 评估分析：
+        - list [ref=e1001]:
+          - listitem [ref=e1002]:
+            - paragraph [ref=e1003]:
+              - strong [ref=e1004]: "ROUGE (召回率导向):"
+              - text: 从召回率的角度出发：“参考答案里的5个词，生成答案覆盖了多少？”——覆盖了4个。因此，它的召回率很高（ROUGE-1 为 4/5），得分会不错。ROUGE更关心“说全了没”。
+          - listitem [ref=e1005]:
+            - paragraph [ref=e1006]:
+              - strong [ref=e1007]: "BLEU (精确率导向):"
+              - text: 从精确率的角度进行评判：“生成答案里的4个词，有多少是有效的（在参考答案里）？”——全部有效，精确率很高。但它会发现生成答案比参考答案短，于是通过
+              - strong [ref=e1008]: 长度惩罚(Brevity Penalty)
+              - text: 进行扣分。BLEU更关心“说对了没，以及长度是否合适”。
+          - listitem [ref=e1009]:
+            - paragraph [ref=e1010]:
+              - strong [ref=e1011]: "METEOR (综合平衡):"
+              - text: 同时计算精确率和召回率，并取一个调和平均。在这个例子里，词序是完全正确的，惩罚项为0。METEOR会在“说全”和“说对”之间找到一个最佳平衡点。
+      - heading "2.2.3 方法对比和总结" [level=4] [ref=e1012]:
+        - link "2.2.3 方法对比和总结" [ref=e1013] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=_223-%e6%96%b9%e6%b3%95%e5%af%b9%e6%af%94%e5%92%8c%e6%80%bb%e7%bb%93"
+      - paragraph [ref=e1014]:
+        - text: 基于LLM的评估更注重
+        - strong [ref=e1015]: 语义和逻辑
+        - text: ，评估质量高，但成本也更高且存在评估者偏见。基于词汇重叠的指标
+        - strong [ref=e1016]: 客观、计算快、成本低
+        - text: ，但无法理解语义，可能误判同义词或释义。在实践中，可以将两者结合，使用经典指标进行快速、大规模的初步筛选，再利用LLM进行更精细的评估。
+      - heading "参考文献" [level=2] [ref=e1017]:
+        - link "参考文献" [ref=e1018] [cursor=pointer]:
+          - /url: "#/chapter6/18_system_evaluation?id=%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae"
+      - paragraph [ref=e1020]:
+        - link "The RAG Triad of Metrics" [ref=e1021] [cursor=pointer]:
+          - /url: https://www.trulens.org/getting_started/core_concepts/rag_triad/
+          - emphasis [ref=e1022]: The RAG Triad of Metrics
+        - text: .
+        - link "↩" [ref=e1023] [cursor=pointer]:
+          - /url: "#fnref-1"
+      - paragraph [ref=e1024]:
+        - superscript [ref=e1025]:
+          - link "2" [ref=e1026] [cursor=pointer]:
+            - /url: "#fn-2"
+        - text: ：
+        - link "如何评估 RAG 应用？" [ref=e1027] [cursor=pointer]:
+          - /url: https://zilliz.com.cn/blog/how-to-evaluate-rag-zilliz
+          - emphasis [ref=e1028]: 如何评估 RAG 应用？
+      - link "下一章节 第二节 评估工具" [ref=e1031] [cursor=pointer]:
+        - /url: "#/chapter6/19_common_tools"
+        - generic [ref=e1032]:
+          - text: 下一章节
+          - img [ref=e1033]
+        - generic [ref=e1035]: 第二节 评估工具
+    - navigation [ref=e195]:
+      - list [ref=e196]:
+        - listitem [ref=e197] [cursor=pointer]:
+          - combobox [ref=e198]:
+            - option "中文" [selected]
+            - option "English"

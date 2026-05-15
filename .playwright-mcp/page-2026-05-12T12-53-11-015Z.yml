@@ -1,0 +1,660 @@
+- generic [active] [ref=e1]:
+  - link "View source on Github" [ref=e2] [cursor=pointer]:
+    - /url: https://github.com/datawhalechina/all-in-rag
+    - img [ref=e3]
+  - main [ref=e7]:
+    - button "Menu" [ref=e8] [cursor=pointer]
+    - complementary [ref=e13]:
+      - searchbox "Search text" [ref=e16]
+      - heading "All-in-RAG" [level=1] [ref=e17]:
+        - link "All-in-RAG" [ref=e18] [cursor=pointer]:
+          - /url: /all-in-rag/
+          - img "All-in-RAG" [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e21] [cursor=pointer]: ☀️ Switch to Dark
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - text: 目录
+            - list [ref=e24]:
+              - listitem [ref=e25]:
+                - text: 第一章 解锁RAG
+                - list [ref=e26]:
+                  - listitem [ref=e27]:
+                    - link "第一节 RAG简介" [ref=e28] [cursor=pointer]:
+                      - /url: "#/chapter1/01_RAG_intro"
+                  - listitem [ref=e29]:
+                    - link "第二节 准备工作" [ref=e30] [cursor=pointer]:
+                      - /url: "#/chapter1/02_preparation"
+                  - listitem [ref=e31]:
+                    - link "第三节 四步构建RAG" [ref=e32] [cursor=pointer]:
+                      - /url: "#/chapter1/03_get_start_rag"
+                  - listitem [ref=e33]:
+                    - link "附：Python虚拟环境部署方案补充" [ref=e34] [cursor=pointer]:
+                      - /url: "#/chapter1/virtualenv"
+              - listitem [ref=e35]:
+                - text: 第二章 数据准备
+                - list [ref=e36]:
+                  - listitem [ref=e37]:
+                    - link "第一节 数据加载" [ref=e38] [cursor=pointer]:
+                      - /url: "#/chapter2/04_data_load"
+                  - listitem [ref=e39]:
+                    - link "第二节 文本分块" [ref=e40] [cursor=pointer]:
+                      - /url: "#/chapter2/05_text_chunking"
+              - listitem [ref=e41]:
+                - text: 第三章 索引构建
+                - list [ref=e42]:
+                  - listitem [ref=e43]:
+                    - link "第一节 向量嵌入" [ref=e44] [cursor=pointer]:
+                      - /url: "#/chapter3/06_vector_embedding"
+                  - listitem [ref=e45]:
+                    - link "第二节 多模态嵌入" [ref=e46] [cursor=pointer]:
+                      - /url: "#/chapter3/07_multimodal_embedding"
+                  - listitem [ref=e47]:
+                    - link "第三节 向量数据库" [ref=e48] [cursor=pointer]:
+                      - /url: "#/chapter3/08_vector_db"
+                  - listitem [ref=e49]:
+                    - link "第四节 Milvus实践" [ref=e50] [cursor=pointer]:
+                      - /url: "#/chapter3/09_milvus"
+                  - listitem [ref=e51]:
+                    - link "第五节 索引优化" [ref=e52] [cursor=pointer]:
+                      - /url: "#/chapter3/10_index_optimization"
+              - listitem [ref=e53]:
+                - text: 第四章 检索优化
+                - list [ref=e54]:
+                  - listitem [ref=e55]:
+                    - link "第一节 混合检索" [ref=e56] [cursor=pointer]:
+                      - /url: "#/chapter4/11_hybrid_search"
+                  - listitem [ref=e57]:
+                    - link "第二节 查询构建" [ref=e58] [cursor=pointer]:
+                      - /url: "#/chapter4/12_query_construction"
+                  - listitem [ref=e59]:
+                    - link "第三节 Text2SQL" [ref=e60] [cursor=pointer]:
+                      - /url: "#/chapter4/13_text2sql"
+                  - listitem [ref=e61]:
+                    - link "第四节 查询重构与分发" [ref=e62] [cursor=pointer]:
+                      - /url: "#/chapter4/14_query_rewriting"
+                    - list [ref=e63]:
+                      - listitem [ref=e64]:
+                        - text: "-"
+                        - link "一、查询翻译" [ref=e65] [cursor=pointer]:
+                          - /url: "#/chapter4/14_query_rewriting?id=%e4%b8%80%e3%80%81%e6%9f%a5%e8%af%a2%e7%bf%bb%e8%af%91"
+                      - list [ref=e66]:
+                        - listitem [ref=e67]:
+                          - text: "-"
+                          - link "1.1 提示工程" [ref=e68] [cursor=pointer]:
+                            - /url: "#/chapter4/14_query_rewriting?id=_11-%e6%8f%90%e7%a4%ba%e5%b7%a5%e7%a8%8b"
+                        - listitem [ref=e69]:
+                          - text: "-"
+                          - link "1.2 多查询分解 (Multi-query)" [ref=e70] [cursor=pointer]:
+                            - /url: "#/chapter4/14_query_rewriting?id=_12-%e5%a4%9a%e6%9f%a5%e8%af%a2%e5%88%86%e8%a7%a3-multi-query"
+                        - listitem [ref=e71]:
+                          - text: "-"
+                          - link "1.3 退步提示（Step-Back Prompting）" [ref=e72] [cursor=pointer]:
+                            - /url: "#/chapter4/14_query_rewriting?id=_13-%e9%80%80%e6%ad%a5%e6%8f%90%e7%a4%ba%ef%bc%88step-back-prompting%ef%bc%89"
+                        - listitem [ref=e73]:
+                          - text: "-"
+                          - link "1.4 假设性文档嵌入 (HyDE)" [ref=e74] [cursor=pointer]:
+                            - /url: "#/chapter4/14_query_rewriting?id=_14-%e5%81%87%e8%ae%be%e6%80%a7%e6%96%87%e6%a1%a3%e5%b5%8c%e5%85%a5-hyde"
+                      - listitem [ref=e75]:
+                        - text: "-"
+                        - link "二、查询路由" [ref=e76] [cursor=pointer]:
+                          - /url: "#/chapter4/14_query_rewriting?id=%e4%ba%8c%e3%80%81%e6%9f%a5%e8%af%a2%e8%b7%af%e7%94%b1"
+                      - list [ref=e77]:
+                        - listitem [ref=e78]:
+                          - text: "-"
+                          - link "2.1 应用场景" [ref=e79] [cursor=pointer]:
+                            - /url: "#/chapter4/14_query_rewriting?id=_21-%e5%ba%94%e7%94%a8%e5%9c%ba%e6%99%af"
+                        - listitem [ref=e80]:
+                          - text: "-"
+                          - link "2.2 实现方法" [ref=e81] [cursor=pointer]:
+                            - /url: "#/chapter4/14_query_rewriting?id=_22-%e5%ae%9e%e7%8e%b0%e6%96%b9%e6%b3%95"
+                        - listitem [ref=e82]:
+                          - text: "-"
+                          - link "2.3 LlamaIndex 拓展" [ref=e83] [cursor=pointer]:
+                            - /url: "#/chapter4/14_query_rewriting?id=_23-llamaindex-%e6%8b%93%e5%b1%95"
+                      - listitem [ref=e84]:
+                        - text: "-"
+                        - link "参考文献" [ref=e85] [cursor=pointer]:
+                          - /url: "#/chapter4/14_query_rewriting?id=%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae"
+                  - listitem [ref=e86]:
+                    - link "第五节 检索进阶技术" [ref=e87] [cursor=pointer]:
+                      - /url: "#/chapter4/15_advanced_retrieval_techniques"
+              - listitem [ref=e88]:
+                - text: 第五章 生成集成
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - link "第一节 格式化生成" [ref=e91] [cursor=pointer]:
+                      - /url: "#/chapter5/16_formatted_generation"
+              - listitem [ref=e92]:
+                - text: 第六章 RAG系统评估
+                - list [ref=e93]:
+                  - listitem [ref=e94]:
+                    - link "第一节 评估介绍" [ref=e95] [cursor=pointer]:
+                      - /url: "#/chapter6/18_system_evaluation"
+                  - listitem [ref=e96]:
+                    - link "第二节 评估工具" [ref=e97] [cursor=pointer]:
+                      - /url: "#/chapter6/19_common_tools"
+              - listitem [ref=e98]:
+                - text: 第七章 高级RAG架构（拓展选修篇）
+                - list [ref=e99]:
+                  - listitem [ref=e100]:
+                    - link "第一节 基于知识图谱的RAG" [ref=e101] [cursor=pointer]:
+                      - /url: "#/chapter7/20_kg_rag"
+              - listitem [ref=e102]:
+                - text: 第八章 项目实战一（基础篇）
+                - list [ref=e103]:
+                  - listitem [ref=e104]:
+                    - link "环境配置与项目架构" [ref=e105] [cursor=pointer]:
+                      - /url: "#/chapter8/01_env_architecture"
+                  - listitem [ref=e106]:
+                    - link "数据准备模块实现" [ref=e107] [cursor=pointer]:
+                      - /url: "#/chapter8/02_data_preparation"
+                  - listitem [ref=e108]:
+                    - link "索引构建与检索优化" [ref=e109] [cursor=pointer]:
+                      - /url: "#/chapter8/03_index_retrieval"
+                  - listitem [ref=e110]:
+                    - link "生成集成与系统整合" [ref=e111] [cursor=pointer]:
+                      - /url: "#/chapter8/04_generation_sys"
+              - listitem [ref=e112]:
+                - text: 第九章 项目实战一优化（选修篇）
+                - list [ref=e113]:
+                  - listitem [ref=e114]:
+                    - link "图RAG架构设计" [ref=e115] [cursor=pointer]:
+                      - /url: "#/chapter9/01_graph_rag_architecture"
+                  - listitem [ref=e116]:
+                    - link "图数据建模与准备" [ref=e117] [cursor=pointer]:
+                      - /url: "#/chapter9/02_graph_data_modeling"
+                  - listitem [ref=e118]:
+                    - link "Milvus索引构建" [ref=e119] [cursor=pointer]:
+                      - /url: "#/chapter9/03_index_construction"
+                  - listitem [ref=e120]:
+                    - link "智能查询路由与检索策略" [ref=e121] [cursor=pointer]:
+                      - /url: "#/chapter9/04_intelligent_query_routing"
+              - listitem [ref=e122]:
+                - text: 第十章 项目实战二（选修篇）
+                - list [ref=e123]:
+                  - listitem [ref=e124]:
+                    - link "规划中..." [ref=e125] [cursor=pointer]:
+                      - /url: "#/chapter10/"
+    - article [ref=e127]:
+      - generic [ref=e129]: 4607 字 | 12 分钟
+      - heading "第四节 查询重构与分发" [level=1] [ref=e130]:
+        - link "第四节 查询重构与分发" [ref=e131] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=%e7%ac%ac%e5%9b%9b%e8%8a%82-%e6%9f%a5%e8%af%a2%e9%87%8d%e6%9e%84%e4%b8%8e%e5%88%86%e5%8f%91"
+      - paragraph [ref=e132]:
+        - text: 此前已经学习了如何从不同类型的数据源（如向量数据库、关系型数据库）中构建查询。然而，用户的原始问题往往不是最优的检索输入。它可能过于复杂、包含歧义，或者与文档的实际措辞存在偏差。为了解决这些问题，我们需要在检索之前对用户的查询进行“预处理”，这就是本节要探讨的
+        - strong [ref=e133]: 查询重构与分发
+        - text: 。
+      - paragraph [ref=e134]: 这个阶段主要包含两个关键技术：
+      - list [ref=e135]:
+        - listitem [ref=e136]:
+          - strong [ref=e137]: 查询翻译（Query Translation）
+          - text: ：将用户的原始问题转换成一个或多个更适合检索的形式。
+        - listitem [ref=e138]:
+          - strong [ref=e139]: 查询路由（Query Routing）
+          - text: ：根据问题的性质，将其智能地分发到最合适的数据源或检索器。
+      - paragraph [ref=e140]: 本节将重点介绍几种主流的查询翻译技术，并简要讨论查询路由的概念。
+      - heading "一、查询翻译" [level=2] [ref=e141]:
+        - link "一、查询翻译" [ref=e142] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=%e4%b8%80%e3%80%81%e6%9f%a5%e8%af%a2%e7%bf%bb%e8%af%91"
+      - paragraph [ref=e143]: 查询翻译的目标是弥合用户自然语言提问与文档库中存储信息之间的“语义鸿沟”。通过重写、分解或扩展查询，我们可以显著提升检索的准确率。
+      - heading "1.1 提示工程" [level=3] [ref=e144]:
+        - link "1.1 提示工程" [ref=e145] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_11-%e6%8f%90%e7%a4%ba%e5%b7%a5%e7%a8%8b"
+      - paragraph [ref=e146]: 这是最直接的查询重构方法。通过精心设计的提示词（Prompt），可以引导 LLM 将用户的原始查询改写得更清晰、更具体，或者转换成一种更利于检索的叙述风格。
+      - paragraph [ref=e147]:
+        - text: 在第二节查询构建的代码示例中，我们发现
+        - code [ref=e148]: SelfQueryRetriever
+        - text: 无法正确处理“时间最短的视频”这类需要排序或进行比较的查询。
+      - paragraph [ref=e149]:
+        - text: 为了解决这个问题，可以采用一种更高级的提示工程技巧：
+        - strong [ref=e150]: 让 LLM 直接构建出查询指令
+        - text: 。
+      - paragraph [ref=e151]: 这种方法的思路是，要求 LLM 直接分析用户的意图，并生成一个结构化（例如 JSON 格式）的指令，告诉我们的代码应该如何操作。对于“时间最短的视频”这个问题，我们期望 LLM 能直接告诉我们：“请按‘时长’字段进行升序排序，并返回第一条结果”。
+      - paragraph [ref=e152]:
+        - text: 下面，来看看如何修改代码来实现这一思路。我们不再使用
+        - code [ref=e153]: SelfQueryRetriever
+        - text: ，而是直接与 LLM 交互，并根据其返回的指令在代码中执行排序逻辑。
+      - paragraph [ref=e154]: 关键的修改主要有两部分：
+      - paragraph [ref=e155]:
+        - text: （1）
+        - strong [ref=e156]: 设计一个新的提示词（Prompt），要求 LLM 输出 JSON 格式的排序指令。
+      - generic [ref=e157]:
+        - code [ref=e158]:
+          - text: "# 使用大模型将自然语言转换为排序指令 prompt ="
+          - generic [ref=e159]:
+            - text: "f\"\"\"你是一个智能助手，请将用户的问题转换成一个用于排序视频的JSON指令。 你需要识别用户想要排序的字段和排序方向。 - 排序字段必须是 'view_count' (观看次数) 或 'length' (时长) 之一。 - 排序方向必须是 'asc' (升序) 或 'desc' (降序) 之一。 例如: - '时间最短的视频' 或 '哪个视频时间最短' 应转换为 {{\"sort_by\": \"length\", \"order\": \"asc\"}} - '播放量最高的视频' 或 '哪个视频最火' 应转换为 {{\"sort_by\": \"view_count\", \"order\": \"desc\"}} 请根据以下问题生成JSON指令: 原始问题: \""
+            - generic [ref=e160]: "{query}"
+            - text: "\" JSON指令:\"\"\""
+        - button "Copy to clipboard Error Copied" [ref=e161] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - paragraph [ref=e162]:
+        - text: （2）
+        - strong [ref=e163]: 在代码中调用 LLM，解析其返回的 JSON 指令，并执行相应的排序操作。
+      - generic [ref=e164]:
+        - code [ref=e165]:
+          - text: "# ... (前略，初始化LLM客户端) # 请求LLM生成指令，并指定返回JSON格式 response = client.chat.completions.create( model=\"deepseek-chat\", messages=[ {\"role\": \"user\", \"content\": prompt} ], temperature=0, response_format={\"type\": \"json_object\"} ) # 解析指令并执行排序 try: import json instruction_str = response.choices[0].message.content instruction = json.loads(instruction_str) print("
+          - generic [ref=e166]:
+            - text: "f\"--- 生成的排序指令:"
+            - generic [ref=e167]: "{instruction}"
+            - text: "---\""
+          - text: ") sort_by = instruction.get('sort_by') order = instruction.get('order') if sort_by in ['length', 'view_count'] and order in ['asc', 'desc']: # 在代码中执行排序 reverse_order = (order == 'desc') sorted_docs = sorted(all_documents, key=lambda doc: doc.metadata.get(sort_by, 0), reverse=reverse_order) # 获取排序后的第一个结果并打印 if sorted_docs: doc = sorted_docs[0] # ... (打印结果的代码) except (json.JSONDecodeError, KeyError) as e: print("
+          - generic [ref=e168]:
+            - text: "f\"解析或执行指令失败:"
+            - generic [ref=e169]: "{e}"
+            - text: "\""
+          - text: )
+        - button "Copy to clipboard Error Copied" [ref=e170] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - paragraph [ref=e171]: 通过这种方式，成功地将 LLM 从一个简单的“文本改写员”提升为了一个能够理解复杂意图并生成可执行计划的“智能代理”，从而优雅地解决了“最值”查询的难题。
+      - blockquote [ref=e172]:
+        - paragraph [ref=e173]:
+          - link "完整代码" [ref=e174] [cursor=pointer]:
+            - /url: https://github.com/datawhalechina/all-in-rag/tree/main/code/C4/04_text_to_metadata_filter_v2.py
+      - heading "1.2 多查询分解 (Multi-query)" [level=3] [ref=e175]:
+        - link "1.2 多查询分解 (Multi-query)" [ref=e176] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_12-%e5%a4%9a%e6%9f%a5%e8%af%a2%e5%88%86%e8%a7%a3-multi-query"
+      - paragraph [ref=e177]: 当用户提出一个复杂的问题时，直接用整个问题去检索可能效果不佳，因为它可能包含多个子主题或意图。分解技术的核心思想是将这个复杂问题拆分成多个更简单、更具体的子问题。然后，系统分别对每个子问题进行检索，最后将所有检索到的结果合并、去重，形成一个更全面的上下文，再交给 LLM 生成最终答案。
+      - paragraph [ref=e178]:
+        - strong [ref=e179]: 示例
+        - text: ：
+      - list [ref=e180]:
+        - listitem [ref=e181]:
+          - strong [ref=e182]: 原始问题
+          - text: ：“在《流浪地球》中，刘慈欣对人工智能和未来社会结构有何看法？”
+        - listitem [ref=e183]:
+          - strong [ref=e184]: 分解后的子问题
+          - text: ：
+          - list [ref=e185]:
+            - listitem [ref=e186]: “《流浪地球》中描述的人工智能技术有哪些？”
+            - listitem [ref=e187]: “《流浪地球》中描绘的未来社会是怎样的？”
+            - listitem [ref=e188]: “刘慈欣关于人工智能的观点是什么？”
+      - paragraph [ref=e189]:
+        - text: LangChain 提供了
+        - code [ref=e190]: MultiQueryRetriever
+        - text: 来完成这一过程
+        - superscript [ref=e191]:
+          - link "1" [ref=e192] [cursor=pointer]:
+            - /url: "#fn-1"
+        - text: 。它在内部利用 LLM 将原始问题从不同角度分解成多个子问题，然后并行为每个子问题检索相关文档。最后，它将所有检索到的文档合并并去重，形成一个更全面的上下文，再传递给语言模型生成最终答案。通过这种策略，极大地丰富了检索结果，在有些应用中可以有效提升后续生成环节的质量。
+      - heading "1.3 退步提示（Step-Back Prompting）" [level=3] [ref=e193]:
+        - link "1.3 退步提示（Step-Back Prompting）" [ref=e194] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_13-%e9%80%80%e6%ad%a5%e6%8f%90%e7%a4%ba%ef%bc%88step-back-prompting%ef%bc%89"
+      - paragraph [ref=e195]:
+        - text: 退步提示是由 Google DeepMind 团队提出的一种旨在提升大语言模型推理能力的提示工程技巧
+        - superscript [ref=e196]:
+          - link "2" [ref=e197] [cursor=pointer]:
+            - /url: "#fn-2"
+        - text: 。当面对一个细节繁多或过于具体的问题时，模型直接作答（即便是使用思维链）也容易出错。退步提示通过引导模型“退后一步”来解决这个问题。
+      - paragraph [ref=e198]: 其核心流程分为两步：
+      - paragraph [ref=e199]:
+        - text: （1）
+        - strong [ref=e200]: 抽象化
+        - text: ：首先，引导 LLM 从用户的原始具体问题中，生成一个更高层次、更概括的“退步问题”（Step-back Question）。这个退步问题旨在探寻原始问题背后的通用原理或核心概念。
+      - paragraph [ref=e201]:
+        - text: （2）
+        - strong [ref=e202]: 推理
+        - text: ：接着，系统会先获取“退步问题”的答案（例如，一个物理定律、一段历史背景等），然后将这个通用原理作为上下文，再结合原始的具体问题，进行推理并生成最终答案。
+      - paragraph [ref=e203]:
+        - img "“退步提示”与“思维链”对比图" [ref=e204]
+      - paragraph [ref=e205]:
+        - strong [ref=e206]: 示例
+        - text: ：
+      - list [ref=e207]:
+        - listitem [ref=e208]:
+          - strong [ref=e209]: 原始问题
+          - text: ：“如果理想气体的温度增加2倍，体积增加8倍，其压力会如何变化？”
+        - listitem [ref=e210]:
+          - strong [ref=e211]: 退步问题
+          - text: ：“这个问题背后的物理原理是什么？”
+        - listitem [ref=e212]:
+          - strong [ref=e213]: 推理过程
+          - text: ：首先回答退步问题，得到“理想气体定律 PV=nRT”。然后基于这个定律，代入具体数值进行计算，最终得出压力变为原来的1/4。
+      - paragraph [ref=e214]: 通过先检索或生成高层知识，再进行具体推理，退步提示能够帮助模型构建一个更坚实的逻辑基础，从而提高在复杂问答场景下的准确性。
+      - heading "1.4 假设性文档嵌入 (HyDE)" [level=3] [ref=e215]:
+        - link "1.4 假设性文档嵌入 (HyDE)" [ref=e216] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_14-%e5%81%87%e8%ae%be%e6%80%a7%e6%96%87%e6%a1%a3%e5%b5%8c%e5%85%a5-hyde"
+      - paragraph [ref=e217]:
+        - text: 假设性文档嵌入（Hypothetical Document Embeddings, HyDE）是一种无需微调即可显著提升向量检索质量的查询改写技术，由 Luyu Gao 等人在其论文中首次提出
+        - superscript [ref=e218]:
+          - link "3" [ref=e219] [cursor=pointer]:
+            - /url: "#fn-3"
+        - text: 。其核心是解决一个普遍存在于检索任务中的难题：用户的查询（Query）通常简短、关键词有限，而数据库中存储的文档则内容详实、上下文丰富，两者在语义向量空间中可能存在“鸿沟”，导致直接用查询向量进行搜索效果不佳。Zilliz 的一篇技术博客
+        - superscript [ref=e220]:
+          - link "4" [ref=e221] [cursor=pointer]:
+            - /url: "#fn-4"
+        - text: 也对该技术进行了深入浅出的解读。
+      - paragraph [ref=e222]:
+        - img "HyDE" [ref=e223]
+      - paragraph [ref=e224]: HyDE 通过一种巧妙的方式来“绕过”这个问题：它不直接使用用户的原始查询，而是先利用一个生成式大语言模型（LLM）来生成一个“假设性”的、能够完美回答该查询的文档。然后，HyDE 将这个内容详实的假设性文档进行向量化，用其生成的向量去数据库中寻找与之最相似的真实文档。HyDE 的工作流程可以分为三个步骤：
+      - paragraph [ref=e225]:
+        - text: （1）
+        - strong [ref=e226]: 生成
+        - text: ：当接收到用户查询时，首先调用一个生成式 LLM（例如，GPT-3.5）。提示该模型根据查询生成一个详细的、可能是理想答案的文档。这个文档不必完全符合事实，但它必须在语义上与一个好的答案高度相关。
+      - paragraph [ref=e227]:
+        - text: （2）
+        - strong [ref=e228]: 编码
+        - text: ：将上一步生成的假设性文档输入到一个对比编码器（如 Contriever）中，将其转换为一个高维向量嵌入。这个向量在语义上代表了一个“理想答案”的位置。
+      - paragraph [ref=e229]:
+        - text: （3）
+        - strong [ref=e230]: 检索
+        - text: ：使用这个假设性文档的向量，在向量数据库中执行相似性搜索，找出与这个“理想答案”最接近的真实文档。这些被检索出的文档将作为最终的上下文信息。
+      - paragraph [ref=e231]: 通过这种方式，HyDE 将困难的“查询到文档”的匹配问题，转化为了一个相对容易的“文档到文档”的匹配问题，从而提升检索的准确率。
+      - heading "二、查询路由" [level=2] [ref=e232]:
+        - link "二、查询路由" [ref=e233] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=%e4%ba%8c%e3%80%81%e6%9f%a5%e8%af%a2%e8%b7%af%e7%94%b1"
+      - paragraph [ref=e234]:
+        - strong [ref=e235]: 查询路由（Query Routing）
+        - text: 是用于优化复杂 RAG 系统的一项关键技术。当系统接入了多个不同的数据源或具备多种处理能力时，就需要一个“智能调度中心”来分析用户的查询，并动态选择最合适的处理路径。其本质是替代硬编码规则，通过语义理解将查询分发至最匹配的数据源、处理组件或提示模板，从而提升系统的效率与答案的准确性。
+      - heading "2.1 应用场景" [level=3] [ref=e236]:
+        - link "2.1 应用场景" [ref=e237] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_21-%e5%ba%94%e7%94%a8%e5%9c%ba%e6%99%af"
+      - paragraph [ref=e238]: 查询路由的应用场景十分广泛。
+      - list [ref=e239]:
+        - listitem [ref=e240]:
+          - paragraph [ref=e241]:
+            - strong [ref=e242]: 数据源路由
+            - text: ：这是最常见的场景。根据查询意图，将其路由到不同的知识库。例如：
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - text: 查询“最新的 iPhone 有什么功能？” -> 路由到
+              - strong [ref=e245]: 产品文档向量数据库
+              - text: 。
+            - listitem [ref=e246]:
+              - text: 查询“我上次订购了什么？” -> 路由到
+              - strong [ref=e247]: 用户历史SQL数据库
+              - text: （执行Text-to-SQL）。
+            - listitem [ref=e248]:
+              - text: 查询“A公司和B公司的投资关系是怎样的？” -> 路由到
+              - strong [ref=e249]: 企业知识图谱数据库
+              - text: 。
+        - listitem [ref=e250]:
+          - paragraph [ref=e251]:
+            - strong [ref=e252]: 组件路由
+            - text: ：根据问题的复杂性，将其分配给不同的处理组件，以平衡成本和效果。
+          - list [ref=e253]:
+            - listitem [ref=e254]: 简单FAQ → 直接进行向量检索，速度快、成本低。
+            - listitem [ref=e255]: 复杂操作或需要与外部API交互 → 调用 Agent 来执行任务。
+        - listitem [ref=e256]:
+          - paragraph [ref=e257]:
+            - strong [ref=e258]: 提示模板路由
+            - text: ：为不同类型的任务动态选择最优的提示词模板，以优化生成效果。
+          - list [ref=e259]:
+            - listitem [ref=e260]: 数学问题 → 选用包含分步思考（Step-by-Step）逻辑的提示模板。
+            - listitem [ref=e261]: 代码生成 → 选用专门为代码优化过的提示模板。
+      - heading "2.2 实现方法" [level=3] [ref=e262]:
+        - link "2.2 实现方法" [ref=e263] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_22-%e5%ae%9e%e7%8e%b0%e6%96%b9%e6%b3%95"
+      - paragraph [ref=e264]:
+        - text: 实现查询路由主要有两种主流方法
+        - superscript [ref=e265]:
+          - link "5" [ref=e266] [cursor=pointer]:
+            - /url: "#fn-5"
+        - text: ：
+      - heading "2.2.1 基于LLM的意图识别" [level=4] [ref=e267]:
+        - link "2.2.1 基于LLM的意图识别" [ref=e268] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_221-%e5%9f%ba%e4%ba%8ellm%e7%9a%84%e6%84%8f%e5%9b%be%e8%af%86%e5%88%ab"
+      - paragraph [ref=e269]: 这是最灵活的方法。通过设计一个包含路由选项的提示词，让大语言模型（LLM）直接对用户的查询进行分类，并输出一个代表路由选择的标签。
+      - paragraph [ref=e270]:
+        - img "逻辑路由" [ref=e271]
+      - list [ref=e272]:
+        - listitem [ref=e273]:
+          - strong [ref=e274]: 实现流程
+          - text: ：
+          - list [ref=e275]:
+            - listitem [ref=e276]: 定义清晰的路由选项（例如，数据源名称、功能分类）。
+            - listitem [ref=e277]: LLM 分析查询并输出决策标签。
+            - listitem [ref=e278]: 代码根据标签调用相应的检索器或工具。
+      - paragraph [ref=e279]: 该方法的核心在于构建一个“分类-分发”的流水线。这里以一个菜谱问答为例，系统需要根据用户提问的菜系（川菜、粤菜或其他）调用不同的专家模型。
+      - blockquote [ref=e280]:
+        - paragraph [ref=e281]:
+          - text: 接下来的代码示例广泛使用了
+          - strong [ref=e282]: LCEL
+          - superscript [ref=e283]:
+            - link "6" [ref=e284] [cursor=pointer]:
+              - /url: "#fn-6"
+          - text: ，它是 LangChain 中用于构建链（Chain）的声明式方法。其核心是
+          - code [ref=e285]: "|"
+          - text: （管道）符号，可以将不同的组件（如提示、模型、解析器）串联起来，形成一个处理流水线。例如，
+          - code [ref=e286]: prompt | llm | parser
+          - text: 就清晰地定义了一个“提示->模型->解析器”的调用顺序。这种方式不仅代码可读性强，而且 LangChain 会在底层自动进行并行、异步和流式等优化。
+      - paragraph [ref=e287]:
+        - strong [ref=e288]: 第一步：定义分类器
+      - paragraph [ref=e289]:
+        - text: 首先创建一个
+        - code [ref=e290]: classifier_chain
+        - text: ，它的任务是读取用户问题，并利用 LLM 的理解能力给问题打上分类标签（例如 '川菜', '粤菜', '其他'）。
+      - generic [ref=e291]:
+        - code [ref=e292]: "# 假设 llm 已经定义 classifier_prompt = ChatPromptTemplate.from_template( \"\"\"根据用户问题中提到的菜品，将其分类为：['川菜', '粤菜', 或 '其他']。 不要解释你的理由，只返回一个单词的分类结果。 问题: {question}\"\"\" ) classifier_chain = classifier_prompt | llm | StrOutputParser()"
+        - button "Copy to clipboard Error Copied" [ref=e293] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - paragraph [ref=e294]:
+        - strong [ref=e295]: 第二步：定义路由分支
+      - paragraph [ref=e296]:
+        - text: 接着，使用
+        - code [ref=e297]: RunnableBranch
+        - text: 来定义路由规则。它就像一个
+        - code [ref=e298]: if-elif-else
+        - text: 语句，根据输入的
+        - code [ref=e299]: topic
+        - text: 字段来选择执行哪一个处理链（
+        - code [ref=e300]: sichuan_chain
+        - text: ","
+        - code [ref=e301]: cantonese_chain
+        - text: 或
+        - code [ref=e302]: general_chain
+        - text: ）。
+      - generic [ref=e303]:
+        - code [ref=e304]: "# 假设 sichuan_chain, cantonese_chain, general_chain 已定义 router_branch = RunnableBranch( (lambda x: \"川菜\" in x[\"topic\"], sichuan_chain), (lambda x: \"粤菜\" in x[\"topic\"], cantonese_chain), general_chain # 默认选项 )"
+        - button "Copy to clipboard Error Copied" [ref=e305] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - paragraph [ref=e306]:
+        - strong [ref=e307]: 第三步：组合完整路由链
+      - paragraph [ref=e308]:
+        - text: 最后，将分类器和路由分支组合起来。这个
+        - code [ref=e309]: full_router_chain
+        - text: 首先会并行执行两个操作：用
+        - code [ref=e310]: classifier_chain
+        - text: 为问题生成
+        - code [ref=e311]: topic
+        - text: ，同时保留原始的
+        - code [ref=e312]: question
+        - text: 。然后，它将这个包含
+        - code [ref=e313]: topic
+        - text: 和
+        - code [ref=e314]: question
+        - text: 的字典传递给
+        - code [ref=e315]: router_branch
+        - text: ，由后者根据
+        - code [ref=e316]: topic
+        - text: 做出最终的路由决策。
+      - generic [ref=e317]:
+        - code [ref=e318]: "full_router_chain = {\"topic\": classifier_chain, \"question\": lambda x: x[\"question\"]} | router_branch # 调用示例 # result = full_router_chain.invoke({\"question\": \"麻婆豆腐怎么做？\"})"
+        - button "Copy to clipboard Error Copied" [ref=e319] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - blockquote [ref=e320]:
+        - paragraph [ref=e321]:
+          - link "完整代码" [ref=e322] [cursor=pointer]:
+            - /url: https://github.com/datawhalechina/all-in-rag/blob/main/code/C4/05_llm_based_routing.py
+      - heading "2.2.2 嵌入相似性路由" [level=4] [ref=e323]:
+        - link "2.2.2 嵌入相似性路由" [ref=e324] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_222-%e5%b5%8c%e5%85%a5%e7%9b%b8%e4%bc%bc%e6%80%a7%e8%b7%af%e7%94%b1"
+      - paragraph [ref=e325]: 这种方法不依赖 LLM 进行分类，延迟更低。它通过计算用户查询与预设的“路由示例语句”之间的向量嵌入相似度来做出决策。
+      - paragraph [ref=e326]:
+        - img "语义路由" [ref=e327]
+      - paragraph [ref=e328]:
+        - strong [ref=e329]: 第一步：定义路由描述并向量化
+      - paragraph [ref=e330]: 为每个路由创建一个详细的文本描述，并使用嵌入模型将其转换为向量，供后续相似度计算使用。
+      - generic [ref=e331]:
+        - code [ref=e332]: "# 假设 embeddings 模型已经初始化 sichuan_route_prompt = \"你是一位处理川菜的专家。用户的问题是关于麻辣、辛香、重口味的菜肴，例如水煮鱼、麻婆豆腐、鱼香肉丝、宫保鸡丁、花椒、海椒等。\" cantonese_route_prompt = \"你是一位处理粤菜的专家。用户的问题是关于清淡、鲜美、原汁原味的菜肴，例如白切鸡、老火靓汤、虾饺、云吞面等。\" route_prompts = [sichuan_route_prompt, cantonese_route_prompt] route_names = [\"川菜\", \"粤菜\"] route_prompt_embeddings = embeddings.embed_documents(route_prompts)"
+        - button "Copy to clipboard Error Copied" [ref=e333] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - paragraph [ref=e334]:
+        - strong [ref=e335]: 第二步：定义目标链
+      - paragraph [ref=e336]:
+        - text: 创建路由最终要分发到的目标处理链，并用一个字典
+        - code [ref=e337]: route_map
+        - text: 将路由名称和链对应起来。
+      - generic [ref=e338]:
+        - code [ref=e339]: "# 假设 llm 已经定义 sichuan_chain = ( PromptTemplate.from_template(\"你是一位川菜大厨。请用正宗的川菜做法，回答关于「{query}」的问题。\") | llm | StrOutputParser() ) cantonese_chain = ( PromptTemplate.from_template(\"你是一位粤菜大厨。请用经典的粤菜做法，回答关于「{query}」的问题。\") | llm | StrOutputParser() ) route_map = { \"川菜\": sichuan_chain, \"粤菜\": cantonese_chain }"
+        - button "Copy to clipboard Error Copied" [ref=e340] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - paragraph [ref=e341]:
+        - strong [ref=e342]: 第三步：定义路由函数
+      - paragraph [ref=e343]:
+        - text: 定义一个
+        - code [ref=e344]: route
+        - text: 函数，接收用户问题，计算与各路由描述的相似度，选择最相似的路由并调用相应的处理链。
+      - generic [ref=e345]:
+        - code [ref=e346]: "def route(info): # 1. 对用户查询进行嵌入 query_embedding = embeddings.embed_query(info[\"query\"]) # 2. 计算与各路由提示的余弦相似度 similarity_scores = cosine_similarity([query_embedding], route_prompt_embeddings)[0] # 3. 找到最相似的路由名称 chosen_route_index = np.argmax(similarity_scores) chosen_route_name = route_names[chosen_route_index] # 4. 获取并调用对应的处理链，返回结果 chosen_chain = route_map[chosen_route_name] return chosen_chain.invoke(info)"
+        - button "Copy to clipboard Error Copied" [ref=e347] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - paragraph [ref=e348]:
+        - strong [ref=e349]: 第四步：组合并调用
+      - paragraph [ref=e350]:
+        - text: 最后，将
+        - code [ref=e351]: route
+        - text: 函数包装成一个
+        - code [ref=e352]: RunnableLambda
+        - text: ，形成一个完整的、可执行的路由链。
+      - generic [ref=e353]:
+        - code [ref=e354]: "full_chain = RunnableLambda(route) # 调用示例 # result = full_chain.invoke({\"question\": \"如何做一碗清淡的云吞面？\"})"
+        - button "Copy to clipboard Error Copied" [ref=e355] [cursor=pointer]:
+          - text: Copy to clipboard
+          - generic: Error
+          - generic: Copied
+        - text: python
+      - blockquote [ref=e356]:
+        - paragraph [ref=e357]:
+          - link "完整代码" [ref=e358] [cursor=pointer]:
+            - /url: https://github.com/datawhalechina/all-in-rag/blob/main/code/C4/06_embedding_based_routing.py
+      - heading "2.3 LlamaIndex 拓展" [level=3] [ref=e359]:
+        - link "2.3 LlamaIndex 拓展" [ref=e360] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=_23-llamaindex-%e6%8b%93%e5%b1%95"
+      - paragraph [ref=e361]:
+        - text: 与 LangChain 类似，LlamaIndex 也提供了强大的查询路由功能
+        - superscript [ref=e362]:
+          - link "7" [ref=e363] [cursor=pointer]:
+            - /url: "#fn-7"
+        - text: ，其思路是将不同的数据源或查询策略包装为“工具（Tool）”，然后通过一个“路由器（Router）”来为用户查询动态选择最合适的工具。实现方式与 LangChain 有异曲同工之处：
+      - list [ref=e364]:
+        - listitem [ref=e365]:
+          - paragraph [ref=e366]:
+            - strong [ref=e367]: 基于LLM的意图识别
+            - text: ：这是 LlamaIndex 的主要实现方式。通过
+            - code [ref=e368]: RouterQueryEngine
+            - text: 来管理一组
+            - code [ref=e369]: QueryEngineTool
+            - text: 。每个
+            - code [ref=e370]: Tool
+            - text: 都包含一个查询引擎和一段描述其功能的文本。路由器会利用一个
+            - code [ref=e371]: Selector
+            - text: （如
+            - code [ref=e372]: LLMSingleSelector
+            - text: 或更稳定的
+            - code [ref=e373]: PydanticSingleSelector
+            - text: ）来让 LLM 根据工具的描述文本和用户问题进行语义匹配，从而选择一个或多个最合适的工具来执行。
+        - listitem [ref=e374]:
+          - paragraph [ref=e375]:
+            - strong [ref=e376]: 嵌入相似性路由
+            - text: ：LlamaIndex 没有提供直接基于向量相似度计算的独立路由组件。它的“语义路由”是融合在基于 LLM 的意图识别中的——即让 LLM 理解每个
+            - code [ref=e377]: Tool
+            - text: 描述的
+            - emphasis [ref=e378]: 语义
+            - text: ，并据此做出决策。这种方式更灵活，能够处理更复杂的路由逻辑，而不仅仅是文本相似度匹配。
+      - heading "参考文献" [level=2] [ref=e379]:
+        - link "参考文献" [ref=e380] [cursor=pointer]:
+          - /url: "#/chapter4/14_query_rewriting?id=%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae"
+      - paragraph [ref=e382]:
+        - link "How to use the MultiQueryRetriever" [ref=e383] [cursor=pointer]:
+          - /url: https://python.langchain.com/docs/how_to/MultiQueryRetriever/
+          - emphasis [ref=e384]: How to use the MultiQueryRetriever
+        - link "↩" [ref=e385] [cursor=pointer]:
+          - /url: "#fnref-1"
+      - paragraph [ref=e387]:
+        - 'link "Zheng, H. S. et al. (2023). Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models" [ref=e388] [cursor=pointer]':
+          - /url: https://arxiv.org/abs/2310.06117
+          - text: Zheng, H. S. et al. (2023).
+          - emphasis [ref=e389]: "Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models"
+        - text: .
+        - link "↩" [ref=e390] [cursor=pointer]:
+          - /url: "#fnref-2"
+      - paragraph [ref=e392]:
+        - link "Gao, L. et al. (2022). Precise Zero-Shot Dense Retrieval without Relevance Labels" [ref=e393] [cursor=pointer]:
+          - /url: https://arxiv.org/abs/2212.10496
+          - text: Gao, L. et al. (2022).
+          - emphasis [ref=e394]: Precise Zero-Shot Dense Retrieval without Relevance Labels
+        - text: .
+        - link "↩" [ref=e395] [cursor=pointer]:
+          - /url: "#fnref-3"
+      - paragraph [ref=e397]:
+        - link "使用假设性文档嵌入（HyDE）改进信息检索和 RAG" [ref=e398] [cursor=pointer]:
+          - /url: https://zilliz.com.cn/blog/improve-rag-and-information-retrieval-with-hyde-hypothetical-document-embeddings
+          - emphasis [ref=e399]: 使用假设性文档嵌入（HyDE）改进信息检索和 RAG
+        - text: .
+        - link "↩" [ref=e400] [cursor=pointer]:
+          - /url: "#fnref-4"
+      - paragraph [ref=e402]:
+        - link "How to route between sub-chains" [ref=e403] [cursor=pointer]:
+          - /url: https://python.langchain.com/docs/how_to/routing/
+          - emphasis [ref=e404]: How to route between sub-chains
+        - text: .
+        - link "↩" [ref=e405] [cursor=pointer]:
+          - /url: "#fnref-5"
+      - paragraph [ref=e407]:
+        - link "LangChain Expression Language" [ref=e408] [cursor=pointer]:
+          - /url: https://python.langchain.com/docs/concepts/lcel/
+          - emphasis [ref=e409]: LangChain Expression Language
+        - text: .
+        - link "↩" [ref=e410] [cursor=pointer]:
+          - /url: "#fnref-6"
+      - paragraph [ref=e412]:
+        - link "LlamaIndex Routing" [ref=e413] [cursor=pointer]:
+          - /url: https://docs.llamaindex.ai/en/stable/module_guides/querying/router/
+          - emphasis [ref=e414]: LlamaIndex Routing
+        - text: .
+        - link "↩" [ref=e415] [cursor=pointer]:
+          - /url: "#fnref-7"
+      - generic [ref=e416]:
+        - link "上一章节 第三节 Text2SQL" [ref=e418] [cursor=pointer]:
+          - /url: "#/chapter4/13_text2sql"
+          - generic [ref=e419]:
+            - img [ref=e420]
+            - text: 上一章节
+          - generic [ref=e422]: 第三节 Text2SQL
+        - link "下一章节 第五节 检索进阶技术" [ref=e424] [cursor=pointer]:
+          - /url: "#/chapter4/15_advanced_retrieval_techniques"
+          - generic [ref=e425]:
+            - text: 下一章节
+            - img [ref=e426]
+          - generic [ref=e428]: 第五节 检索进阶技术
+    - navigation [ref=e429]:
+      - list [ref=e430]:
+        - listitem [ref=e431] [cursor=pointer]:
+          - combobox [ref=e432]:
+            - option "中文" [selected]
+            - option "English"

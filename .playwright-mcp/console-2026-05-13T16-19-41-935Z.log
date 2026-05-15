@@ -1,0 +1,11 @@
+[      72ms] [ERROR] Docsify plugin error TypeError: Cannot read properties of undefined (reading 'unshift')
+    at y (https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js:1:474)
+    at https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js:1:1299
+    at Array.forEach (<anonymous>)
+    at b (https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js:1:750)
+    at https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js:1:3410
+    at Object.then (https://cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js:1:7073)
+    at https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js:1:3382
+    at Array.forEach (<anonymous>)
+    at r (https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js:1:3281)
+    at https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js:1:8134 @ https://cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js:0
